@@ -39,12 +39,7 @@ namespace WindowsFormsApp
         }
 
 
-        private void dgvThongkepn_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int index;
-            index = e.RowIndex;
-            txtmapn.Text = dgvThongkepn.Rows[index].Cells[0].Value.ToString();
-        }
+        
 
         private void btnXemchitietpn_Click(object sender, EventArgs e)
         {
@@ -57,6 +52,13 @@ namespace WindowsFormsApp
             UC_ThongKe tk = new UC_ThongKe();
             tk.Show();
             this.Hide();
+        }
+
+        private void dgvThongkepn_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            int index;
+            index = e.RowIndex;
+            txtmapn.Text = dgvThongkepn.Rows[index].Cells[0].Value.ToString();
         }
     }
 }

@@ -23,9 +23,9 @@ namespace WindowsFormsApp
             //themUC(tc);
             this.tk = tk;
             lblNguoidung.Text = tk;
-           Phanquyen();
+          // Phanquyen();
 
-            TTnguoiban();
+             TTnguoiban();
         }
 
         private void TTnguoiban()

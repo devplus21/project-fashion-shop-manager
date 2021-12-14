@@ -1078,7 +1078,6 @@ C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\
 C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_NhapHang.resources
 C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_ThemLoaiHang.resources
 C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_CaLamViecNhanVien.resources
-C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager-Chi\WindowsFormsApp\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager-Chi\WindowsFormsApp\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager-Chi\WindowsFormsApp\bin\Debug\SqlServerTypes\x86\msvcr120.dll
@@ -1478,3 +1477,8 @@ C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager\WindowsFormsApp\obj\Debu
 C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_XacNhanSDT.resources
 C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager\WindowsFormsApp\obj\Debug\RdlCompile.cache
 C:\Users\buiva\OneDrive\Máy tính\fashion-shop-manager\WindowsFormsApp\obj\Debug\RdlCompile.compiled
+C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormDangKy.resources
+C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.FormSDT.resources
+C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_DoiMatKhau.resources
+C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_ThongKeKhachHang.resources
+C:\Users\Nguyen Cong Chi\Desktop\fashion-shop-manager\WindowsFormsApp\obj\Debug\WindowsFormsApp.UC_XacNhanSDT.resources

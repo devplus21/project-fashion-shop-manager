@@ -82,5 +82,13 @@ namespace DAO
             return data;
         }
 
+
+
+        public DataTable TimKiemDiemTichLuy (string tk)
+        {
+            string query = "select DiemTichLuy from KhachHang where MaKH = '"+tk+"'";
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            return data;
+        }
     }
 }
