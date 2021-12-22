@@ -29,16 +29,17 @@ namespace WindowsFormsApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlNhanVien = new System.Windows.Forms.Panel();
             this.btnGiaoca = new FontAwesome.Sharp.IconButton();
             this.btnSua = new FontAwesome.Sharp.IconButton();
             this.btnXoa = new FontAwesome.Sharp.IconButton();
             this.dgvNV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtKH = new Guna.UI2.WinForms.Guna2TextBox();
@@ -63,7 +64,6 @@ namespace WindowsFormsApp
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblTk = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.pnlNhanVien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNV)).BeginInit();
             this.panel1.SuspendLayout();
@@ -154,43 +154,43 @@ namespace WindowsFormsApp
             // 
             // dgvNV
             // 
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
-            this.dgvNV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            this.dgvNV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvNV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNV.BackgroundColor = System.Drawing.Color.White;
             this.dgvNV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvNV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvNV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvNV.ColumnHeadersHeight = 45;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNV.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNV.DefaultCellStyle = dataGridViewCellStyle11;
             this.dgvNV.EnableHeadersVisualStyles = false;
             this.dgvNV.GridColor = System.Drawing.Color.Gray;
             this.dgvNV.Location = new System.Drawing.Point(21, 612);
             this.dgvNV.Name = "dgvNV";
             this.dgvNV.ReadOnly = true;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNV.RowHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNV.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvNV.RowHeadersVisible = false;
             this.dgvNV.RowHeadersWidth = 62;
             this.dgvNV.RowTemplate.Height = 45;
@@ -250,6 +250,17 @@ namespace WindowsFormsApp
             this.panel1.Size = new System.Drawing.Size(1368, 515);
             this.panel1.TabIndex = 220;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Red;
+            this.label13.Location = new System.Drawing.Point(159, 191);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(22, 29);
+            this.label13.TabIndex = 235;
+            this.label13.Text = "*";
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
@@ -266,13 +277,14 @@ namespace WindowsFormsApp
             this.label1.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 26);
+            this.label1.Size = new System.Drawing.Size(140, 22);
             this.label1.TabIndex = 15;
             this.label1.Text = "Thông tin chung";
             // 
             // txtKH
             // 
             this.txtKH.BorderColor = System.Drawing.Color.Silver;
+            this.txtKH.BorderRadius = 3;
             this.txtKH.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtKH.DefaultText = "Nhập tên nv";
             this.txtKH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -302,6 +314,7 @@ namespace WindowsFormsApp
             // txtTimkiem
             // 
             this.txtTimkiem.BorderColor = System.Drawing.Color.Silver;
+            this.txtTimkiem.BorderRadius = 3;
             this.txtTimkiem.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTimkiem.DefaultText = "Tìm kiếm theo mã, tên nhân viên";
             this.txtTimkiem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -333,6 +346,7 @@ namespace WindowsFormsApp
             // 
             this.cmbChucVu.BackColor = System.Drawing.Color.Transparent;
             this.cmbChucVu.BorderColor = System.Drawing.Color.Black;
+            this.cmbChucVu.BorderRadius = 3;
             this.cmbChucVu.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbChucVu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbChucVu.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -353,6 +367,7 @@ namespace WindowsFormsApp
             // 
             this.cmbGioiTinh.BackColor = System.Drawing.Color.Transparent;
             this.cmbGioiTinh.BorderColor = System.Drawing.Color.Black;
+            this.cmbGioiTinh.BorderRadius = 3;
             this.cmbGioiTinh.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbGioiTinh.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -376,7 +391,7 @@ namespace WindowsFormsApp
             this.label12.ForeColor = System.Drawing.Color.Red;
             this.label12.Location = new System.Drawing.Point(522, 296);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(26, 35);
+            this.label12.Size = new System.Drawing.Size(22, 29);
             this.label12.TabIndex = 227;
             this.label12.Text = "*";
             // 
@@ -386,7 +401,7 @@ namespace WindowsFormsApp
             this.label11.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(434, 296);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(91, 35);
+            this.label11.Size = new System.Drawing.Size(78, 29);
             this.label11.TabIndex = 225;
             this.label11.Text = "Chức vụ";
             // 
@@ -396,7 +411,7 @@ namespace WindowsFormsApp
             this.label10.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(23, 296);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 35);
+            this.label10.Size = new System.Drawing.Size(87, 29);
             this.label10.TabIndex = 223;
             this.label10.Text = "Giới tính:";
             // 
@@ -406,13 +421,14 @@ namespace WindowsFormsApp
             this.label9.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(859, 296);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 35);
+            this.label9.Size = new System.Drawing.Size(86, 29);
             this.label9.TabIndex = 220;
             this.label9.Text = "Tìm kiếm";
             // 
             // txtDiachi
             // 
             this.txtDiachi.BorderColor = System.Drawing.Color.Silver;
+            this.txtDiachi.BorderRadius = 3;
             this.txtDiachi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiachi.DefaultText = "Nhập địa chỉ";
             this.txtDiachi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -442,6 +458,7 @@ namespace WindowsFormsApp
             // txtEmail
             // 
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
+            this.txtEmail.BorderRadius = 3;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.DefaultText = "Nhập địa chỉ email";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -471,6 +488,7 @@ namespace WindowsFormsApp
             // txtSĐT
             // 
             this.txtSĐT.BorderColor = System.Drawing.Color.Silver;
+            this.txtSĐT.BorderRadius = 3;
             this.txtSĐT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSĐT.DefaultText = "Nhập số điện thoại";
             this.txtSĐT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -500,6 +518,7 @@ namespace WindowsFormsApp
             // txtMaNV
             // 
             this.txtMaNV.BorderColor = System.Drawing.Color.Silver;
+            this.txtMaNV.BorderRadius = 3;
             this.txtMaNV.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaNV.DefaultText = "Nhập mã nhân viên\r\n";
             this.txtMaNV.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -531,7 +550,7 @@ namespace WindowsFormsApp
             this.label8.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(23, 403);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 35);
+            this.label8.Size = new System.Drawing.Size(67, 29);
             this.label8.TabIndex = 220;
             this.label8.Text = "Địa chỉ";
             // 
@@ -542,7 +561,7 @@ namespace WindowsFormsApp
             this.label7.ForeColor = System.Drawing.Color.Red;
             this.label7.Location = new System.Drawing.Point(564, 191);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(26, 35);
+            this.label7.Size = new System.Drawing.Size(22, 29);
             this.label7.TabIndex = 26;
             this.label7.Text = "*";
             // 
@@ -552,7 +571,7 @@ namespace WindowsFormsApp
             this.label6.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(859, 191);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 35);
+            this.label6.Size = new System.Drawing.Size(58, 29);
             this.label6.TabIndex = 25;
             this.label6.Text = "Email";
             // 
@@ -562,7 +581,7 @@ namespace WindowsFormsApp
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(434, 191);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 35);
+            this.label5.Size = new System.Drawing.Size(114, 29);
             this.label5.TabIndex = 24;
             this.label5.Text = "Số điện thoại";
             // 
@@ -572,7 +591,7 @@ namespace WindowsFormsApp
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(23, 191);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 35);
+            this.label4.Size = new System.Drawing.Size(118, 29);
             this.label4.TabIndex = 23;
             this.label4.Text = "Mã nhân viên";
             // 
@@ -583,7 +602,7 @@ namespace WindowsFormsApp
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(162, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 35);
+            this.label3.Size = new System.Drawing.Size(22, 29);
             this.label3.TabIndex = 19;
             this.label3.Text = "*";
             // 
@@ -593,7 +612,7 @@ namespace WindowsFormsApp
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(23, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 35);
+            this.label2.Size = new System.Drawing.Size(122, 29);
             this.label2.TabIndex = 18;
             this.label2.Text = "Tên nhân viên";
             // 
@@ -612,7 +631,7 @@ namespace WindowsFormsApp
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1411, 68);
+            this.panel2.Size = new System.Drawing.Size(1411, 54);
             this.panel2.TabIndex = 219;
             // 
             // lblTk
@@ -621,20 +640,9 @@ namespace WindowsFormsApp
             this.lblTk.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTk.Location = new System.Drawing.Point(15, 12);
             this.lblTk.Name = "lblTk";
-            this.lblTk.Size = new System.Drawing.Size(191, 35);
+            this.lblTk.Size = new System.Drawing.Size(162, 29);
             this.lblTk.TabIndex = 14;
             this.lblTk.Text = "Quản lý nhân viên";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(159, 191);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(26, 35);
-            this.label13.TabIndex = 235;
-            this.label13.Text = "*";
             // 
             // UC_NhanVien
             // 

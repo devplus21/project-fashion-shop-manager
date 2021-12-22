@@ -150,6 +150,7 @@ namespace WindowsFormsApp
             // 
             this.cmbLoaiHang.BackColor = System.Drawing.Color.Transparent;
             this.cmbLoaiHang.BorderColor = System.Drawing.Color.Black;
+            this.cmbLoaiHang.BorderRadius = 5;
             this.cmbLoaiHang.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbLoaiHang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLoaiHang.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -175,6 +176,7 @@ namespace WindowsFormsApp
             // 
             this.cmbĐVT.BackColor = System.Drawing.Color.Transparent;
             this.cmbĐVT.BorderColor = System.Drawing.Color.Black;
+            this.cmbĐVT.BorderRadius = 5;
             this.cmbĐVT.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbĐVT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbĐVT.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -220,6 +222,7 @@ namespace WindowsFormsApp
             // txtTenMH
             // 
             this.txtTenMH.BorderColor = System.Drawing.Color.Silver;
+            this.txtTenMH.BorderRadius = 5;
             this.txtTenMH.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTenMH.DefaultText = "Nhập tên mặt hàng";
             this.txtTenMH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -234,7 +237,7 @@ namespace WindowsFormsApp
             this.txtTenMH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenMH.HoverState.Parent = this.txtTenMH;
             this.txtTenMH.Location = new System.Drawing.Point(11, 88);
-            this.txtTenMH.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtTenMH.Margin = new System.Windows.Forms.Padding(6);
             this.txtTenMH.Name = "txtTenMH";
             this.txtTenMH.PasswordChar = '\0';
             this.txtTenMH.PlaceholderText = "";
@@ -258,6 +261,7 @@ namespace WindowsFormsApp
             // txtMaMH
             // 
             this.txtMaMH.BorderColor = System.Drawing.Color.Silver;
+            this.txtMaMH.BorderRadius = 5;
             this.txtMaMH.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaMH.DefaultText = "Nhập mã mặt hàng\r\n\r\n";
             this.txtMaMH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -271,8 +275,8 @@ namespace WindowsFormsApp
             this.txtMaMH.ForeColor = System.Drawing.Color.Black;
             this.txtMaMH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaMH.HoverState.Parent = this.txtMaMH;
-            this.txtMaMH.Location = new System.Drawing.Point(11, 188);
-            this.txtMaMH.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtMaMH.Location = new System.Drawing.Point(11, 194);
+            this.txtMaMH.Margin = new System.Windows.Forms.Padding(6);
             this.txtMaMH.Name = "txtMaMH";
             this.txtMaMH.PasswordChar = '\0';
             this.txtMaMH.PlaceholderText = "";

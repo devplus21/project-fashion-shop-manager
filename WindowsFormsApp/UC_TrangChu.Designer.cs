@@ -29,9 +29,9 @@ namespace WindowsFormsApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlTTTaiKhoan = new System.Windows.Forms.Panel();
             this.btnTK = new FontAwesome.Sharp.IconButton();
@@ -61,6 +61,7 @@ namespace WindowsFormsApp
             this.label2 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.panel1.SuspendLayout();
             this.pnlTTTaiKhoan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -72,6 +73,7 @@ namespace WindowsFormsApp
             ((System.ComponentModel.ISupportInitialize)(this.pcbBell)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -96,10 +98,10 @@ namespace WindowsFormsApp
             // 
             this.pnlTTTaiKhoan.BackColor = System.Drawing.Color.White;
             this.pnlTTTaiKhoan.Controls.Add(this.btnTK);
-            this.pnlTTTaiKhoan.Location = new System.Drawing.Point(877, 56);
+            this.pnlTTTaiKhoan.Location = new System.Drawing.Point(868, 58);
             this.pnlTTTaiKhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlTTTaiKhoan.Name = "pnlTTTaiKhoan";
-            this.pnlTTTaiKhoan.Size = new System.Drawing.Size(262, 76);
+            this.pnlTTTaiKhoan.Size = new System.Drawing.Size(262, 62);
             this.pnlTTTaiKhoan.TabIndex = 29;
             // 
             // btnTK
@@ -126,21 +128,21 @@ namespace WindowsFormsApp
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart1.Legends.Add(legend5);
             this.chart1.Location = new System.Drawing.Point(19, 343);
             this.chart1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
-            series1.BorderWidth = 3;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.LabelBorderWidth = 3;
-            series1.Legend = "Legend1";
-            series1.Name = "Doanh Thu";
-            this.chart1.Series.Add(series1);
+            series5.BorderWidth = 3;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.LabelBorderWidth = 3;
+            series5.Legend = "Legend1";
+            series5.Name = "Doanh Thu";
+            this.chart1.Series.Add(series5);
             this.chart1.Size = new System.Drawing.Size(1221, 557);
             this.chart1.TabIndex = 28;
             this.chart1.Text = "chart1";
@@ -287,6 +289,7 @@ namespace WindowsFormsApp
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.iconPictureBox1);
             this.panel2.Controls.Add(this.btnX);
             this.panel2.Controls.Add(this.pcbAlign);
             this.panel2.Controls.Add(this.pcbBell);
@@ -305,13 +308,14 @@ namespace WindowsFormsApp
             this.btnX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
             this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnX.Location = new System.Drawing.Point(1212, 14);
+            this.btnX.Location = new System.Drawing.Point(1212, 10);
             this.btnX.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnX.Name = "btnX";
             this.btnX.Size = new System.Drawing.Size(28, 25);
             this.btnX.TabIndex = 21;
             this.btnX.Text = "X";
             this.btnX.UseVisualStyleBackColor = false;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // pcbAlign
             // 
@@ -321,7 +325,7 @@ namespace WindowsFormsApp
             this.pcbAlign.IconColor = System.Drawing.SystemColors.HotTrack;
             this.pcbAlign.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.pcbAlign.IconSize = 30;
-            this.pcbAlign.Location = new System.Drawing.Point(1118, 14);
+            this.pcbAlign.Location = new System.Drawing.Point(1174, 9);
             this.pcbAlign.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pcbAlign.Name = "pcbAlign";
             this.pcbAlign.Size = new System.Drawing.Size(38, 30);
@@ -336,7 +340,7 @@ namespace WindowsFormsApp
             this.pcbBell.IconColor = System.Drawing.SystemColors.HotTrack;
             this.pcbBell.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.pcbBell.IconSize = 30;
-            this.pcbBell.Location = new System.Drawing.Point(1065, 14);
+            this.pcbBell.Location = new System.Drawing.Point(1071, 8);
             this.pcbBell.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pcbBell.Name = "pcbBell";
             this.pcbBell.Size = new System.Drawing.Size(38, 30);
@@ -347,7 +351,7 @@ namespace WindowsFormsApp
             // 
             this.lblTenNhanVien.AutoSize = true;
             this.lblTenNhanVien.Font = new System.Drawing.Font("Sitka Banner", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenNhanVien.Location = new System.Drawing.Point(917, 14);
+            this.lblTenNhanVien.Location = new System.Drawing.Point(909, 9);
             this.lblTenNhanVien.Name = "lblTenNhanVien";
             this.lblTenNhanVien.Size = new System.Drawing.Size(124, 24);
             this.lblTenNhanVien.TabIndex = 16;
@@ -367,12 +371,12 @@ namespace WindowsFormsApp
             // iconPictureBox2
             // 
             this.iconPictureBox2.BackColor = System.Drawing.Color.White;
-            this.iconPictureBox2.ForeColor = System.Drawing.Color.Gray;
+            this.iconPictureBox2.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.UserCog;
-            this.iconPictureBox2.IconColor = System.Drawing.Color.Gray;
+            this.iconPictureBox2.IconColor = System.Drawing.SystemColors.HotTrack;
             this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox2.IconSize = 35;
-            this.iconPictureBox2.Location = new System.Drawing.Point(877, 11);
+            this.iconPictureBox2.Location = new System.Drawing.Point(868, 8);
             this.iconPictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconPictureBox2.Name = "iconPictureBox2";
             this.iconPictureBox2.Size = new System.Drawing.Size(35, 40);
@@ -432,6 +436,21 @@ namespace WindowsFormsApp
             this.label1.TabIndex = 21;
             this.label1.Text = "TỔNG QUAN KINH DOANH";
             // 
+            // iconPictureBox1
+            // 
+            this.iconPictureBox1.BackColor = System.Drawing.Color.White;
+            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Heart;
+            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.HotTrack;
+            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox1.IconSize = 30;
+            this.iconPictureBox1.Location = new System.Drawing.Point(1124, 9);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.Size = new System.Drawing.Size(38, 30);
+            this.iconPictureBox1.TabIndex = 22;
+            this.iconPictureBox1.TabStop = false;
+            // 
             // UC_TrangChu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -458,6 +477,7 @@ namespace WindowsFormsApp
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -493,5 +513,6 @@ namespace WindowsFormsApp
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel pnlTTTaiKhoan;
         private FontAwesome.Sharp.IconButton btnTK;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
     }
 }

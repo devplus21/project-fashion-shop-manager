@@ -101,9 +101,9 @@ namespace WindowsFormsApp
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.lblTk);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1176, 57);
+            this.panel2.Size = new System.Drawing.Size(1176, 54);
             this.panel2.TabIndex = 220;
             // 
             // lblTk
@@ -161,7 +161,7 @@ namespace WindowsFormsApp
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.txtGiaNhap);
             this.panel1.Location = new System.Drawing.Point(10, 73);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1153, 429);
             this.panel1.TabIndex = 221;
@@ -241,6 +241,7 @@ namespace WindowsFormsApp
             // txtEmail
             // 
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
+            this.txtEmail.BorderRadius = 3;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.DefaultText = "Email";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -269,6 +270,7 @@ namespace WindowsFormsApp
             // txtDiaChi
             // 
             this.txtDiaChi.BorderColor = System.Drawing.Color.Silver;
+            this.txtDiaChi.BorderRadius = 3;
             this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiaChi.DefaultText = "Địa chỉ";
             this.txtDiaChi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -297,6 +299,7 @@ namespace WindowsFormsApp
             // txtSĐT
             // 
             this.txtSĐT.BorderColor = System.Drawing.Color.Silver;
+            this.txtSĐT.BorderRadius = 3;
             this.txtSĐT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSĐT.DefaultText = "Số điện thoại";
             this.txtSĐT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -338,6 +341,7 @@ namespace WindowsFormsApp
             // 
             this.cmbTenncc.BackColor = System.Drawing.Color.Transparent;
             this.cmbTenncc.BorderColor = System.Drawing.Color.Black;
+            this.cmbTenncc.BorderRadius = 3;
             this.cmbTenncc.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbTenncc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTenncc.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -351,7 +355,7 @@ namespace WindowsFormsApp
             "----- Chọn tên nhà cung cấp -----"});
             this.cmbTenncc.ItemsAppearance.Parent = this.cmbTenncc;
             this.cmbTenncc.Location = new System.Drawing.Point(596, 155);
-            this.cmbTenncc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbTenncc.Margin = new System.Windows.Forms.Padding(2);
             this.cmbTenncc.Name = "cmbTenncc";
             this.cmbTenncc.ShadowDecoration.Parent = this.cmbTenncc;
             this.cmbTenncc.Size = new System.Drawing.Size(288, 36);
@@ -439,6 +443,7 @@ namespace WindowsFormsApp
             // txtMaNV
             // 
             this.txtMaNV.BorderColor = System.Drawing.Color.Silver;
+            this.txtMaNV.BorderRadius = 3;
             this.txtMaNV.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaNV.DefaultText = "NV003";
             this.txtMaNV.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -467,6 +472,7 @@ namespace WindowsFormsApp
             // guna2TextBox3
             // 
             this.guna2TextBox3.BorderColor = System.Drawing.Color.Silver;
+            this.guna2TextBox3.BorderRadius = 3;
             this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox3.DefaultText = "Nguyễn Công Chí";
             this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -505,6 +511,7 @@ namespace WindowsFormsApp
             // 
             // dpkNgaykt
             // 
+            this.dpkNgaykt.BorderRadius = 3;
             this.dpkNgaykt.BorderThickness = 1;
             this.dpkNgaykt.CheckedState.Parent = this.dpkNgaykt;
             this.dpkNgaykt.FillColor = System.Drawing.Color.White;
@@ -512,7 +519,7 @@ namespace WindowsFormsApp
             this.dpkNgaykt.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dpkNgaykt.HoverState.Parent = this.dpkNgaykt;
             this.dpkNgaykt.Location = new System.Drawing.Point(23, 288);
-            this.dpkNgaykt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dpkNgaykt.Margin = new System.Windows.Forms.Padding(2);
             this.dpkNgaykt.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dpkNgaykt.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dpkNgaykt.Name = "dpkNgaykt";
@@ -536,6 +543,7 @@ namespace WindowsFormsApp
             // txtSL
             // 
             this.txtSL.BorderColor = System.Drawing.Color.Silver;
+            this.txtSL.BorderRadius = 3;
             this.txtSL.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSL.DefaultText = "0";
             this.txtSL.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -563,6 +571,7 @@ namespace WindowsFormsApp
             // txtGiaBan
             // 
             this.txtGiaBan.BorderColor = System.Drawing.Color.Silver;
+            this.txtGiaBan.BorderRadius = 3;
             this.txtGiaBan.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGiaBan.DefaultText = "0";
             this.txtGiaBan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -673,6 +682,7 @@ namespace WindowsFormsApp
             // 
             this.cmbTensp.BackColor = System.Drawing.Color.Transparent;
             this.cmbTensp.BorderColor = System.Drawing.Color.Black;
+            this.cmbTensp.BorderRadius = 3;
             this.cmbTensp.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbTensp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTensp.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -686,7 +696,7 @@ namespace WindowsFormsApp
             "----- Chọn tên sản phẩm -----"});
             this.cmbTensp.ItemsAppearance.Parent = this.cmbTensp;
             this.cmbTensp.Location = new System.Drawing.Point(24, 187);
-            this.cmbTensp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbTensp.Margin = new System.Windows.Forms.Padding(2);
             this.cmbTensp.Name = "cmbTensp";
             this.cmbTensp.ShadowDecoration.Parent = this.cmbTensp;
             this.cmbTensp.Size = new System.Drawing.Size(288, 36);
@@ -743,7 +753,7 @@ namespace WindowsFormsApp
             // 
             this.panel6.BackColor = System.Drawing.Color.Silver;
             this.panel6.Location = new System.Drawing.Point(577, 4);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1, 425);
             this.panel6.TabIndex = 236;
@@ -753,10 +763,10 @@ namespace WindowsFormsApp
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
             this.panel5.Controls.Add(this.label13);
             this.panel5.ForeColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(594, 4);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Location = new System.Drawing.Point(588, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(553, 41);
+            this.panel5.Size = new System.Drawing.Size(559, 41);
             this.panel5.TabIndex = 235;
             // 
             // label13
@@ -777,9 +787,9 @@ namespace WindowsFormsApp
             this.panel4.Controls.Add(this.label1);
             this.panel4.ForeColor = System.Drawing.Color.White;
             this.panel4.Location = new System.Drawing.Point(8, 4);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(553, 41);
+            this.panel4.Size = new System.Drawing.Size(561, 41);
             this.panel4.TabIndex = 234;
             // 
             // label1
@@ -809,7 +819,7 @@ namespace WindowsFormsApp
             // 
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Location = new System.Drawing.Point(8, 50);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1129, 1);
             this.panel3.TabIndex = 16;
@@ -817,6 +827,7 @@ namespace WindowsFormsApp
             // txtGiaNhap
             // 
             this.txtGiaNhap.BorderColor = System.Drawing.Color.Silver;
+            this.txtGiaNhap.BorderRadius = 3;
             this.txtGiaNhap.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGiaNhap.DefaultText = "0";
             this.txtGiaNhap.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -856,7 +867,7 @@ namespace WindowsFormsApp
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.panel11);
             this.panel7.Location = new System.Drawing.Point(10, 517);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1153, 429);
             this.panel7.TabIndex = 222;
@@ -873,7 +884,7 @@ namespace WindowsFormsApp
             this.btnXacNhan.IconSize = 30;
             this.btnXacNhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXacNhan.Location = new System.Drawing.Point(594, 229);
-            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(2);
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.btnXacNhan.Size = new System.Drawing.Size(552, 37);
@@ -896,7 +907,7 @@ namespace WindowsFormsApp
             this.btnThemTTMathang.IconSize = 30;
             this.btnThemTTMathang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThemTTMathang.Location = new System.Drawing.Point(592, 305);
-            this.btnThemTTMathang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemTTMathang.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemTTMathang.Name = "btnThemTTMathang";
             this.btnThemTTMathang.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.btnThemTTMathang.Size = new System.Drawing.Size(553, 37);
@@ -919,7 +930,7 @@ namespace WindowsFormsApp
             this.btnLamMoi.IconSize = 28;
             this.btnLamMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLamMoi.Location = new System.Drawing.Point(592, 374);
-            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.btnLamMoi.Size = new System.Drawing.Size(553, 37);
@@ -941,7 +952,7 @@ namespace WindowsFormsApp
             this.btnXoa.IconSize = 30;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXoa.Location = new System.Drawing.Point(596, 152);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.btnXoa.Size = new System.Drawing.Size(552, 37);
@@ -964,7 +975,7 @@ namespace WindowsFormsApp
             this.btnThem.IconSize = 30;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThem.Location = new System.Drawing.Point(594, 68);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.btnThem.Size = new System.Drawing.Size(553, 37);
@@ -977,10 +988,11 @@ namespace WindowsFormsApp
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Controls.Add(this.label12);
             this.panel10.ForeColor = System.Drawing.Color.White;
             this.panel10.Location = new System.Drawing.Point(588, 3);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(559, 41);
             this.panel10.TabIndex = 238;
@@ -1001,7 +1013,7 @@ namespace WindowsFormsApp
             // 
             this.panel9.BackColor = System.Drawing.Color.Silver;
             this.panel9.Location = new System.Drawing.Point(577, 2);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1, 425);
             this.panel9.TabIndex = 237;
@@ -1012,7 +1024,7 @@ namespace WindowsFormsApp
             this.lsvNhaphang.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsvNhaphang.HideSelection = false;
             this.lsvNhaphang.Location = new System.Drawing.Point(7, 54);
-            this.lsvNhaphang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lsvNhaphang.Margin = new System.Windows.Forms.Padding(2);
             this.lsvNhaphang.Name = "lsvNhaphang";
             this.lsvNhaphang.Size = new System.Drawing.Size(562, 374);
             this.lsvNhaphang.TabIndex = 223;
@@ -1024,7 +1036,7 @@ namespace WindowsFormsApp
             this.panel8.Controls.Add(this.label11);
             this.panel8.ForeColor = System.Drawing.Color.White;
             this.panel8.Location = new System.Drawing.Point(8, 3);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(561, 41);
             this.panel8.TabIndex = 235;
@@ -1045,7 +1057,7 @@ namespace WindowsFormsApp
             // 
             this.panel11.BackColor = System.Drawing.Color.Silver;
             this.panel11.Location = new System.Drawing.Point(2, 49);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(1158, 1);
             this.panel11.TabIndex = 16;
@@ -1057,7 +1069,7 @@ namespace WindowsFormsApp
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UC_NhapHang";
             this.Size = new System.Drawing.Size(1176, 958);
             this.panel2.ResumeLayout(false);

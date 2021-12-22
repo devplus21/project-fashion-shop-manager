@@ -245,6 +245,7 @@ namespace WindowsFormsApp
             // 
             this.cmbLuaChon.BackColor = System.Drawing.Color.Transparent;
             this.cmbLuaChon.BorderColor = System.Drawing.Color.Black;
+            this.cmbLuaChon.BorderRadius = 3;
             this.cmbLuaChon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbLuaChon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLuaChon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -296,7 +297,7 @@ namespace WindowsFormsApp
             this.dateTimePicker2.Location = new System.Drawing.Point(433, 201);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(287, 29);
+            this.dateTimePicker2.Size = new System.Drawing.Size(169, 29);
             this.dateTimePicker2.TabIndex = 241;
             // 
             // label8
@@ -328,7 +329,7 @@ namespace WindowsFormsApp
             this.dateTimePicker1.Location = new System.Drawing.Point(26, 201);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(287, 29);
+            this.dateTimePicker1.Size = new System.Drawing.Size(182, 29);
             this.dateTimePicker1.TabIndex = 238;
             // 
             // label3
@@ -377,6 +378,7 @@ namespace WindowsFormsApp
             // 
             this.cmbPhanTram.BackColor = System.Drawing.Color.Transparent;
             this.cmbPhanTram.BorderColor = System.Drawing.Color.Black;
+            this.cmbPhanTram.BorderRadius = 3;
             this.cmbPhanTram.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbPhanTram.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbPhanTram.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -401,6 +403,7 @@ namespace WindowsFormsApp
             // 
             this.cmbTenMH.BackColor = System.Drawing.Color.Transparent;
             this.cmbTenMH.BorderColor = System.Drawing.Color.Black;
+            this.cmbTenMH.BorderRadius = 3;
             this.cmbTenMH.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbTenMH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTenMH.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));

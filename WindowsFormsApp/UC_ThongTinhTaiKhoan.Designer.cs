@@ -209,7 +209,7 @@ namespace WindowsFormsApp
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel9.Location = new System.Drawing.Point(20, 230);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(56, 28);
+            this.panel9.Size = new System.Drawing.Size(58, 37);
             this.panel9.TabIndex = 24;
             // 
             // label17
@@ -228,7 +228,7 @@ namespace WindowsFormsApp
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel8.Location = new System.Drawing.Point(20, 158);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(54, 24);
+            this.panel8.Size = new System.Drawing.Size(58, 37);
             this.panel8.TabIndex = 22;
             // 
             // label16
@@ -247,7 +247,7 @@ namespace WindowsFormsApp
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel7.Location = new System.Drawing.Point(18, 93);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(54, 28);
+            this.panel7.Size = new System.Drawing.Size(58, 37);
             this.panel7.TabIndex = 20;
             // 
             // label15
@@ -264,9 +264,9 @@ namespace WindowsFormsApp
             // 
             this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel6.Location = new System.Drawing.Point(20, 24);
+            this.panel6.Location = new System.Drawing.Point(18, 17);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(54, 26);
+            this.panel6.Size = new System.Drawing.Size(58, 37);
             this.panel6.TabIndex = 3;
             // 
             // panel5
@@ -350,7 +350,7 @@ namespace WindowsFormsApp
             // txtDiaChi
             // 
             this.txtDiaChi.BorderColor = System.Drawing.Color.Silver;
-            this.txtDiaChi.BorderRadius = 2;
+            this.txtDiaChi.BorderRadius = 5;
             this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiaChi.DefaultText = "Nhập mã nhân viên\r\n";
             this.txtDiaChi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -389,7 +389,7 @@ namespace WindowsFormsApp
             // txtEmail
             // 
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
-            this.txtEmail.BorderRadius = 2;
+            this.txtEmail.BorderRadius = 5;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.DefaultText = "Nhập mã nhân viên\r\n";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -428,7 +428,7 @@ namespace WindowsFormsApp
             // txtGioiTinh
             // 
             this.txtGioiTinh.BorderColor = System.Drawing.Color.Silver;
-            this.txtGioiTinh.BorderRadius = 2;
+            this.txtGioiTinh.BorderRadius = 5;
             this.txtGioiTinh.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGioiTinh.DefaultText = "Nhập mã nhân viên\r\n";
             this.txtGioiTinh.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -468,7 +468,7 @@ namespace WindowsFormsApp
             // 
             this.txtHoVaTen.BackColor = System.Drawing.SystemColors.Window;
             this.txtHoVaTen.BorderColor = System.Drawing.Color.Silver;
-            this.txtHoVaTen.BorderRadius = 2;
+            this.txtHoVaTen.BorderRadius = 5;
             this.txtHoVaTen.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtHoVaTen.DefaultText = "Nhập tên nv";
             this.txtHoVaTen.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -492,11 +492,12 @@ namespace WindowsFormsApp
             this.txtHoVaTen.ShadowDecoration.Parent = this.txtHoVaTen;
             this.txtHoVaTen.Size = new System.Drawing.Size(382, 41);
             this.txtHoVaTen.TabIndex = 243;
+            this.txtHoVaTen.TextChanged += new System.EventHandler(this.txtHoVaTen_TextChanged);
             // 
             // txtSĐT
             // 
             this.txtSĐT.BorderColor = System.Drawing.Color.Silver;
-            this.txtSĐT.BorderRadius = 2;
+            this.txtSĐT.BorderRadius = 5;
             this.txtSĐT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSĐT.DefaultText = "Nhập số điện thoại";
             this.txtSĐT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -524,7 +525,7 @@ namespace WindowsFormsApp
             // txtChucvu
             // 
             this.txtChucvu.BorderColor = System.Drawing.Color.Silver;
-            this.txtChucvu.BorderRadius = 2;
+            this.txtChucvu.BorderRadius = 5;
             this.txtChucvu.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtChucvu.DefaultText = "Nhập mã nhân viên\r\n";
             this.txtChucvu.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));

@@ -43,5 +43,10 @@ namespace WindowsFormsApp
             FormDoiMatKhauMoi f = new FormDoiMatKhauMoi(txtSĐT.Text);
             f.Show();
         }
+
+        private void txtHoVaTen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

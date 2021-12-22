@@ -29,6 +29,7 @@ namespace WindowsFormsApp
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelLeft = new System.Windows.Forms.Panel();
             this.lblQuyen = new System.Windows.Forms.Label();
             this.lblMaNV = new System.Windows.Forms.Label();
@@ -49,6 +50,7 @@ namespace WindowsFormsApp
             this.btnKhachHang = new FontAwesome.Sharp.IconButton();
             this.btnTrangchu = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panelLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -165,9 +167,9 @@ namespace WindowsFormsApp
             this.label2.ForeColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(61, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 39);
+            this.label2.Size = new System.Drawing.Size(103, 39);
             this.label2.TabIndex = 1;
-            this.label2.Text = "a p e";
+            this.label2.Text = "w e n";
             // 
             // label1
             // 
@@ -177,9 +179,9 @@ namespace WindowsFormsApp
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(21, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 39);
+            this.label1.Size = new System.Drawing.Size(44, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "S";
+            this.label1.Text = "O";
             // 
             // pnlDiChuyen
             // 
@@ -201,7 +203,7 @@ namespace WindowsFormsApp
             this.btnDangXuat.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDangXuat.IconSize = 43;
             this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangXuat.Location = new System.Drawing.Point(13, 847);
+            this.btnDangXuat.Location = new System.Drawing.Point(8, 820);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
@@ -375,7 +377,7 @@ namespace WindowsFormsApp
             this.btnTrangchu.Name = "btnTrangchu";
             this.btnTrangchu.Size = new System.Drawing.Size(217, 52);
             this.btnTrangchu.TabIndex = 27;
-            this.btnTrangchu.Text = "         Trang tổng quan";
+            this.btnTrangchu.Text = "         Trang chủ";
             this.btnTrangchu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTrangchu.UseVisualStyleBackColor = true;
             this.btnTrangchu.Click += new System.EventHandler(this.btnTrangchu_Click);
@@ -388,6 +390,11 @@ namespace WindowsFormsApp
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1254, 882);
             this.panel1.TabIndex = 5;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 10;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // FormTrangChu1
             // 
@@ -430,5 +437,6 @@ namespace WindowsFormsApp
         private System.Windows.Forms.Label lblMaNV;
         private System.Windows.Forms.Label lblTenNV;
         private System.Windows.Forms.Label lblQuyen;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

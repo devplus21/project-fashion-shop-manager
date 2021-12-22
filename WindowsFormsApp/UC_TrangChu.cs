@@ -106,5 +106,10 @@ namespace WindowsFormsApp
             else
                 subMenu.Visible = false;
         }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

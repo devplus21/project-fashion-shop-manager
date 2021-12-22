@@ -140,7 +140,7 @@ namespace WindowsFormsApp
             this.txtXacNhan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtXacNhan.HoverState.Parent = this.txtXacNhan;
             this.txtXacNhan.Location = new System.Drawing.Point(20, 298);
-            this.txtXacNhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtXacNhan.Margin = new System.Windows.Forms.Padding(4);
             this.txtXacNhan.Name = "txtXacNhan";
             this.txtXacNhan.PasswordChar = '\0';
             this.txtXacNhan.PlaceholderText = "";
@@ -170,7 +170,7 @@ namespace WindowsFormsApp
             this.txtSDT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSDT.HoverState.Parent = this.txtSDT;
             this.txtSDT.Location = new System.Drawing.Point(20, 231);
-            this.txtSDT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(4);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.PasswordChar = '\0';
             this.txtSDT.PlaceholderText = "";
@@ -194,7 +194,7 @@ namespace WindowsFormsApp
             this.btnQuaylai.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnQuaylai.IconSize = 35;
             this.btnQuaylai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuaylai.Location = new System.Drawing.Point(-7, 11);
+            this.btnQuaylai.Location = new System.Drawing.Point(0, 11);
             this.btnQuaylai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuaylai.Name = "btnQuaylai";
             this.btnQuaylai.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
@@ -304,9 +304,9 @@ namespace WindowsFormsApp
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
             this.label2.Location = new System.Drawing.Point(189, -5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 68);
+            this.label2.Size = new System.Drawing.Size(132, 68);
             this.label2.TabIndex = 269;
-            this.label2.Text = "a p e";
+            this.label2.Text = "w e n";
             // 
             // label1
             // 
@@ -316,9 +316,9 @@ namespace WindowsFormsApp
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(142, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 46);
+            this.label1.Size = new System.Drawing.Size(52, 46);
             this.label1.TabIndex = 268;
-            this.label1.Text = "S";
+            this.label1.Text = "O";
             // 
             // bunifuElipse1
             // 
