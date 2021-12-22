@@ -73,9 +73,49 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8b814fa66a3676d9f1090a4e8df515ba {
+            get {
+                object obj = ResourceManager.GetObject("8b814fa66a3676d9f1090a4e8df515ba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Capture {
+            get {
+                object obj = ResourceManager.GetObject("Capture", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Capture1 {
+            get {
+                object obj = ResourceManager.GetObject("Capture1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dzcqynvgag7q {
             get {
                 object obj = ResourceManager.GetObject("dzcqynvgag7q", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_anh_may_hong_may_cam_cuc_dep_111706037 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-anh-may-hong-may-cam-cuc-dep_111706037", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +146,16 @@ namespace WindowsFormsApp.Properties {
         internal static System.Drawing.Bitmap oto_giaohang {
             get {
                 object obj = ResourceManager.GetObject("oto-giaohang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thi_t_K_Shop_Th_i_Trang_Nam_TUNG_TRAN_3_ {
+            get {
+                object obj = ResourceManager.GetObject("Thi-t-K-Shop-Th-i-Trang-Nam-TUNG-TRAN-3-", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

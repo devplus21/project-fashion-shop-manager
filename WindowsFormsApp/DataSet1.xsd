@@ -46,6 +46,19 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="DataTable3" msprop:Generator_TableClassName="DataTable3DataTable" msprop:Generator_TableVarName="tableDataTable3" msprop:Generator_RowChangedName="DataTable3RowChanged" msprop:Generator_TablePropName="DataTable3" msprop:Generator_RowDeletingName="DataTable3RowDeleting" msprop:Generator_RowChangingName="DataTable3RowChanging" msprop:Generator_RowEvHandlerName="DataTable3RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable3RowDeleted" msprop:Generator_RowClassName="DataTable3Row" msprop:Generator_UserTableName="DataTable3" msprop:Generator_RowEvArgName="DataTable3RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaMH" msprop:Generator_ColumnVarNameInTable="columnMaMH" msprop:Generator_ColumnPropNameInRow="MaMH" msprop:Generator_ColumnPropNameInTable="MaMHColumn" msprop:Generator_UserColumnName="MaMH" type="xs:string" minOccurs="0" />
+              <xs:element name="TenMH" msprop:Generator_ColumnVarNameInTable="columnTenMH" msprop:Generator_ColumnPropNameInRow="TenMH" msprop:Generator_ColumnPropNameInTable="TenMHColumn" msprop:Generator_UserColumnName="TenMH" type="xs:string" minOccurs="0" />
+              <xs:element name="DonVi" msprop:Generator_ColumnVarNameInTable="columnDonVi" msprop:Generator_ColumnPropNameInRow="DonVi" msprop:Generator_ColumnPropNameInTable="DonViColumn" msprop:Generator_UserColumnName="DonVi" type="xs:string" minOccurs="0" />
+              <xs:element name="SoLuong" msprop:Generator_ColumnVarNameInTable="columnSoLuong" msprop:Generator_ColumnPropNameInRow="SoLuong" msprop:Generator_ColumnPropNameInTable="SoLuongColumn" msprop:Generator_UserColumnName="SoLuong" type="xs:string" minOccurs="0" />
+              <xs:element name="SLNhap" msprop:Generator_ColumnVarNameInTable="columnSLNhap" msprop:Generator_ColumnPropNameInRow="SLNhap" msprop:Generator_ColumnPropNameInTable="SLNhapColumn" msprop:Generator_UserColumnName="SLNhap" type="xs:string" minOccurs="0" />
+              <xs:element name="SLBan" msprop:Generator_ColumnVarNameInTable="columnSLBan" msprop:Generator_ColumnPropNameInRow="SLBan" msprop:Generator_ColumnPropNameInTable="SLBanColumn" msprop:Generator_UserColumnName="SLBan" type="xs:string" minOccurs="0" />
+              <xs:element name="GiaBan" msprop:Generator_ColumnVarNameInTable="columnGiaBan" msprop:Generator_ColumnPropNameInRow="GiaBan" msprop:Generator_ColumnPropNameInTable="GiaBanColumn" msprop:Generator_UserColumnName="GiaBan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
   </xs:element>

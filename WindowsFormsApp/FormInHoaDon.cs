@@ -20,6 +20,7 @@ namespace WindowsFormsApp
         private string Tienhoantra;
         private string Tiendagiam;
         private string TongTien;
+
         public FormInHoaDon(string mahd, string Tienkhachdua, string Tienhoantra, string Tiendagiam, string TongTien)
         {
             InitializeComponent();
@@ -47,7 +48,7 @@ namespace WindowsFormsApp
                 new ReportParameter("Tienkhachdua", Tienkhachdua),
                 new ReportParameter("Tienhoantra", Tienhoantra),
                 new ReportParameter("Tiendagiam", Tiendagiam),
-                 new ReportParameter("TongTien", TongTien)
+                new ReportParameter("TongTien", TongTien)
            };
             this.reportViewer1.LocalReport.SetParameters(rptParams);
             this.reportViewer1.LocalReport.DataSources.Clear();
