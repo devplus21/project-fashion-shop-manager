@@ -25,9 +25,6 @@ namespace WindowsFormsApp
 
         }
 
-
-
-       
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             string tenDangNhap = txtTenDangNhap.Text;
@@ -111,11 +108,6 @@ namespace WindowsFormsApp
             FormSDT f = new FormSDT();
             f.Show();
             this.Hide();
-        }
-
-        private void guna2GradientButton1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

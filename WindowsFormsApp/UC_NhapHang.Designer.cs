@@ -101,9 +101,9 @@ namespace WindowsFormsApp
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.lblTk);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1176, 54);
+            this.panel2.Size = new System.Drawing.Size(1254, 54);
             this.panel2.TabIndex = 220;
             // 
             // lblTk
@@ -160,11 +160,12 @@ namespace WindowsFormsApp
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.txtGiaNhap);
-            this.panel1.Location = new System.Drawing.Point(10, 73);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(17, 67);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1153, 429);
+            this.panel1.Size = new System.Drawing.Size(1221, 402);
             this.panel1.TabIndex = 221;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // txtformatGiaban
             // 
@@ -184,7 +185,7 @@ namespace WindowsFormsApp
             this.txtformatGiaban.ForeColor = System.Drawing.Color.Maroon;
             this.txtformatGiaban.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtformatGiaban.HoverState.Parent = this.txtformatGiaban;
-            this.txtformatGiaban.Location = new System.Drawing.Point(463, 281);
+            this.txtformatGiaban.Location = new System.Drawing.Point(467, 265);
             this.txtformatGiaban.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtformatGiaban.Name = "txtformatGiaban";
             this.txtformatGiaban.PasswordChar = '\0';
@@ -231,7 +232,7 @@ namespace WindowsFormsApp
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(1034, 113);
+            this.label10.Location = new System.Drawing.Point(1084, 117);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(22, 29);
@@ -241,7 +242,6 @@ namespace WindowsFormsApp
             // txtEmail
             // 
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
-            this.txtEmail.BorderRadius = 3;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.DefaultText = "Email";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -255,7 +255,7 @@ namespace WindowsFormsApp
             this.txtEmail.ForeColor = System.Drawing.Color.Gray;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.Parent = this.txtEmail;
-            this.txtEmail.Location = new System.Drawing.Point(588, 346);
+            this.txtEmail.Location = new System.Drawing.Point(628, 350);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -270,7 +270,6 @@ namespace WindowsFormsApp
             // txtDiaChi
             // 
             this.txtDiaChi.BorderColor = System.Drawing.Color.Silver;
-            this.txtDiaChi.BorderRadius = 3;
             this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiaChi.DefaultText = "Địa chỉ";
             this.txtDiaChi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -284,7 +283,7 @@ namespace WindowsFormsApp
             this.txtDiaChi.ForeColor = System.Drawing.Color.Gray;
             this.txtDiaChi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDiaChi.HoverState.Parent = this.txtDiaChi;
-            this.txtDiaChi.Location = new System.Drawing.Point(588, 247);
+            this.txtDiaChi.Location = new System.Drawing.Point(628, 251);
             this.txtDiaChi.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.PasswordChar = '\0';
@@ -299,7 +298,6 @@ namespace WindowsFormsApp
             // txtSĐT
             // 
             this.txtSĐT.BorderColor = System.Drawing.Color.Silver;
-            this.txtSĐT.BorderRadius = 3;
             this.txtSĐT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSĐT.DefaultText = "Số điện thoại";
             this.txtSĐT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -313,7 +311,7 @@ namespace WindowsFormsApp
             this.txtSĐT.ForeColor = System.Drawing.Color.Gray;
             this.txtSĐT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSĐT.HoverState.Parent = this.txtSĐT;
-            this.txtSĐT.Location = new System.Drawing.Point(931, 152);
+            this.txtSĐT.Location = new System.Drawing.Point(971, 156);
             this.txtSĐT.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtSĐT.Name = "txtSĐT";
             this.txtSĐT.PasswordChar = '\0';
@@ -330,7 +328,7 @@ namespace WindowsFormsApp
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.Red;
-            this.label25.Location = new System.Drawing.Point(730, 109);
+            this.label25.Location = new System.Drawing.Point(784, 117);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(22, 29);
@@ -341,7 +339,6 @@ namespace WindowsFormsApp
             // 
             this.cmbTenncc.BackColor = System.Drawing.Color.Transparent;
             this.cmbTenncc.BorderColor = System.Drawing.Color.Black;
-            this.cmbTenncc.BorderRadius = 3;
             this.cmbTenncc.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbTenncc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTenncc.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -354,8 +351,8 @@ namespace WindowsFormsApp
             this.cmbTenncc.Items.AddRange(new object[] {
             "----- Chọn tên nhà cung cấp -----"});
             this.cmbTenncc.ItemsAppearance.Parent = this.cmbTenncc;
-            this.cmbTenncc.Location = new System.Drawing.Point(596, 155);
-            this.cmbTenncc.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbTenncc.Location = new System.Drawing.Point(636, 159);
+            this.cmbTenncc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbTenncc.Name = "cmbTenncc";
             this.cmbTenncc.ShadowDecoration.Parent = this.cmbTenncc;
             this.cmbTenncc.Size = new System.Drawing.Size(288, 36);
@@ -378,7 +375,7 @@ namespace WindowsFormsApp
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(591, 311);
+            this.label8.Location = new System.Drawing.Point(631, 315);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(58, 29);
@@ -389,7 +386,7 @@ namespace WindowsFormsApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(591, 112);
+            this.label5.Location = new System.Drawing.Point(631, 116);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(149, 29);
@@ -400,7 +397,7 @@ namespace WindowsFormsApp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(589, 63);
+            this.label4.Location = new System.Drawing.Point(629, 67);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(150, 29);
@@ -411,7 +408,7 @@ namespace WindowsFormsApp
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(591, 212);
+            this.label7.Location = new System.Drawing.Point(631, 216);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 29);
@@ -422,7 +419,7 @@ namespace WindowsFormsApp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(102, 382);
+            this.label3.Location = new System.Drawing.Point(101, 350);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 29);
@@ -433,7 +430,7 @@ namespace WindowsFormsApp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(926, 112);
+            this.label6.Location = new System.Drawing.Point(966, 116);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(114, 29);
@@ -443,7 +440,6 @@ namespace WindowsFormsApp
             // txtMaNV
             // 
             this.txtMaNV.BorderColor = System.Drawing.Color.Silver;
-            this.txtMaNV.BorderRadius = 3;
             this.txtMaNV.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaNV.DefaultText = "NV003";
             this.txtMaNV.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -457,7 +453,7 @@ namespace WindowsFormsApp
             this.txtMaNV.ForeColor = System.Drawing.Color.Black;
             this.txtMaNV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaNV.HoverState.Parent = this.txtMaNV;
-            this.txtMaNV.Location = new System.Drawing.Point(17, 382);
+            this.txtMaNV.Location = new System.Drawing.Point(17, 350);
             this.txtMaNV.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.PasswordChar = '\0';
@@ -472,7 +468,6 @@ namespace WindowsFormsApp
             // guna2TextBox3
             // 
             this.guna2TextBox3.BorderColor = System.Drawing.Color.Silver;
-            this.guna2TextBox3.BorderRadius = 3;
             this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox3.DefaultText = "Nguyễn Công Chí";
             this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -486,7 +481,7 @@ namespace WindowsFormsApp
             this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(133, 382);
+            this.guna2TextBox3.Location = new System.Drawing.Point(134, 350);
             this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
@@ -502,7 +497,7 @@ namespace WindowsFormsApp
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(19, 347);
+            this.label24.Location = new System.Drawing.Point(20, 315);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(136, 29);
@@ -511,15 +506,14 @@ namespace WindowsFormsApp
             // 
             // dpkNgaykt
             // 
-            this.dpkNgaykt.BorderRadius = 3;
             this.dpkNgaykt.BorderThickness = 1;
             this.dpkNgaykt.CheckedState.Parent = this.dpkNgaykt;
             this.dpkNgaykt.FillColor = System.Drawing.Color.White;
             this.dpkNgaykt.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dpkNgaykt.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dpkNgaykt.HoverState.Parent = this.dpkNgaykt;
-            this.dpkNgaykt.Location = new System.Drawing.Point(23, 288);
-            this.dpkNgaykt.Margin = new System.Windows.Forms.Padding(2);
+            this.dpkNgaykt.Location = new System.Drawing.Point(22, 265);
+            this.dpkNgaykt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dpkNgaykt.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dpkNgaykt.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dpkNgaykt.Name = "dpkNgaykt";
@@ -533,7 +527,7 @@ namespace WindowsFormsApp
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(19, 246);
+            this.label23.Location = new System.Drawing.Point(19, 234);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(97, 29);
@@ -543,7 +537,6 @@ namespace WindowsFormsApp
             // txtSL
             // 
             this.txtSL.BorderColor = System.Drawing.Color.Silver;
-            this.txtSL.BorderRadius = 3;
             this.txtSL.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSL.DefaultText = "0";
             this.txtSL.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -557,7 +550,7 @@ namespace WindowsFormsApp
             this.txtSL.ForeColor = System.Drawing.Color.Black;
             this.txtSL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSL.HoverState.Parent = this.txtSL;
-            this.txtSL.Location = new System.Drawing.Point(362, 382);
+            this.txtSL.Location = new System.Drawing.Point(359, 350);
             this.txtSL.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtSL.Name = "txtSL";
             this.txtSL.PasswordChar = '\0';
@@ -571,7 +564,6 @@ namespace WindowsFormsApp
             // txtGiaBan
             // 
             this.txtGiaBan.BorderColor = System.Drawing.Color.Silver;
-            this.txtGiaBan.BorderRadius = 3;
             this.txtGiaBan.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGiaBan.DefaultText = "0";
             this.txtGiaBan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -585,7 +577,7 @@ namespace WindowsFormsApp
             this.txtGiaBan.ForeColor = System.Drawing.Color.Black;
             this.txtGiaBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGiaBan.HoverState.Parent = this.txtGiaBan;
-            this.txtGiaBan.Location = new System.Drawing.Point(362, 281);
+            this.txtGiaBan.Location = new System.Drawing.Point(359, 265);
             this.txtGiaBan.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.PasswordChar = '\0';
@@ -602,7 +594,7 @@ namespace WindowsFormsApp
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Red;
-            this.label21.Location = new System.Drawing.Point(435, 347);
+            this.label21.Location = new System.Drawing.Point(438, 315);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(22, 29);
@@ -613,7 +605,7 @@ namespace WindowsFormsApp
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(362, 347);
+            this.label22.Location = new System.Drawing.Point(362, 315);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(84, 29);
@@ -625,7 +617,7 @@ namespace WindowsFormsApp
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Red;
-            this.label19.Location = new System.Drawing.Point(439, 246);
+            this.label19.Location = new System.Drawing.Point(438, 234);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(22, 29);
@@ -636,7 +628,7 @@ namespace WindowsFormsApp
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(362, 246);
+            this.label20.Location = new System.Drawing.Point(362, 234);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(72, 29);
@@ -671,7 +663,7 @@ namespace WindowsFormsApp
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Red;
-            this.label16.Location = new System.Drawing.Point(128, 156);
+            this.label16.Location = new System.Drawing.Point(142, 156);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(22, 29);
@@ -682,7 +674,6 @@ namespace WindowsFormsApp
             // 
             this.cmbTensp.BackColor = System.Drawing.Color.Transparent;
             this.cmbTensp.BorderColor = System.Drawing.Color.Black;
-            this.cmbTensp.BorderRadius = 3;
             this.cmbTensp.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbTensp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTensp.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -696,7 +687,7 @@ namespace WindowsFormsApp
             "----- Chọn tên sản phẩm -----"});
             this.cmbTensp.ItemsAppearance.Parent = this.cmbTensp;
             this.cmbTensp.Location = new System.Drawing.Point(24, 187);
-            this.cmbTensp.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbTensp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbTensp.Name = "cmbTensp";
             this.cmbTensp.ShadowDecoration.Parent = this.cmbTensp;
             this.cmbTensp.Size = new System.Drawing.Size(288, 36);
@@ -708,7 +699,7 @@ namespace WindowsFormsApp
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(18, 156);
+            this.label15.Location = new System.Drawing.Point(19, 152);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(119, 29);
@@ -730,7 +721,7 @@ namespace WindowsFormsApp
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(19, 109);
+            this.label14.Location = new System.Drawing.Point(17, 108);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(120, 29);
@@ -752,8 +743,8 @@ namespace WindowsFormsApp
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Silver;
-            this.panel6.Location = new System.Drawing.Point(577, 4);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
+            this.panel6.Location = new System.Drawing.Point(606, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1, 425);
             this.panel6.TabIndex = 236;
@@ -763,20 +754,20 @@ namespace WindowsFormsApp
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
             this.panel5.Controls.Add(this.label13);
             this.panel5.ForeColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(588, 4);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.panel5.Location = new System.Drawing.Point(626, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(559, 41);
+            this.panel5.Size = new System.Drawing.Size(579, 41);
             this.panel5.TabIndex = 235;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(12, 8);
+            this.label13.Font = new System.Drawing.Font("Cambria", 12F);
+            this.label13.Location = new System.Drawing.Point(4, 8);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(344, 22);
+            this.label13.Size = new System.Drawing.Size(356, 23);
             this.label13.TabIndex = 15;
             this.label13.Text = "                                     Thông tin nhà cung cấp\r\n";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -787,19 +778,19 @@ namespace WindowsFormsApp
             this.panel4.Controls.Add(this.label1);
             this.panel4.ForeColor = System.Drawing.Color.White;
             this.panel4.Location = new System.Drawing.Point(8, 4);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(561, 41);
+            this.panel4.Size = new System.Drawing.Size(582, 41);
             this.panel4.TabIndex = 234;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 8);
+            this.label1.Font = new System.Drawing.Font("Cambria", 12F);
+            this.label1.Location = new System.Drawing.Point(33, 8);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(313, 22);
+            this.label1.Size = new System.Drawing.Size(325, 23);
             this.label1.TabIndex = 15;
             this.label1.Text = "                                     Thông tin mặt hàng";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -818,16 +809,15 @@ namespace WindowsFormsApp
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Silver;
-            this.panel3.Location = new System.Drawing.Point(8, 50);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(8, 60);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1129, 1);
-            this.panel3.TabIndex = 16;
+            this.panel3.Size = new System.Drawing.Size(1221, 1);
+            this.panel3.TabIndex = 1;
             // 
             // txtGiaNhap
             // 
             this.txtGiaNhap.BorderColor = System.Drawing.Color.Silver;
-            this.txtGiaNhap.BorderRadius = 3;
             this.txtGiaNhap.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtGiaNhap.DefaultText = "0";
             this.txtGiaNhap.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -866,11 +856,12 @@ namespace WindowsFormsApp
             this.panel7.Controls.Add(this.lsvNhaphang);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.panel11);
-            this.panel7.Location = new System.Drawing.Point(10, 517);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.panel7.Location = new System.Drawing.Point(17, 473);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1153, 429);
+            this.panel7.Size = new System.Drawing.Size(1221, 343);
             this.panel7.TabIndex = 222;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // btnXacNhan
             // 
@@ -883,11 +874,11 @@ namespace WindowsFormsApp
             this.btnXacNhan.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnXacNhan.IconSize = 30;
             this.btnXacNhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXacNhan.Location = new System.Drawing.Point(594, 229);
-            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnXacNhan.Location = new System.Drawing.Point(628, 175);
+            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnXacNhan.Size = new System.Drawing.Size(552, 37);
+            this.btnXacNhan.Size = new System.Drawing.Size(553, 40);
             this.btnXacNhan.TabIndex = 243;
             this.btnXacNhan.Text = "         Xác nhận nhập hàng";
             this.btnXacNhan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -906,11 +897,11 @@ namespace WindowsFormsApp
             this.btnThemTTMathang.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnThemTTMathang.IconSize = 30;
             this.btnThemTTMathang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemTTMathang.Location = new System.Drawing.Point(592, 305);
-            this.btnThemTTMathang.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThemTTMathang.Location = new System.Drawing.Point(628, 231);
+            this.btnThemTTMathang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThemTTMathang.Name = "btnThemTTMathang";
             this.btnThemTTMathang.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnThemTTMathang.Size = new System.Drawing.Size(553, 37);
+            this.btnThemTTMathang.Size = new System.Drawing.Size(553, 40);
             this.btnThemTTMathang.TabIndex = 242;
             this.btnThemTTMathang.Text = "        Thêm mới thông tin mặt hàng\r\n";
             this.btnThemTTMathang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -929,11 +920,11 @@ namespace WindowsFormsApp
             this.btnLamMoi.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLamMoi.IconSize = 28;
             this.btnLamMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLamMoi.Location = new System.Drawing.Point(592, 374);
-            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLamMoi.Location = new System.Drawing.Point(627, 284);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnLamMoi.Size = new System.Drawing.Size(553, 37);
+            this.btnLamMoi.Size = new System.Drawing.Size(553, 40);
             this.btnLamMoi.TabIndex = 241;
             this.btnLamMoi.Text = "        Làm mới thông tin nhập hàng";
             this.btnLamMoi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -951,11 +942,11 @@ namespace WindowsFormsApp
             this.btnXoa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnXoa.IconSize = 30;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(596, 152);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
+            this.btnXoa.Location = new System.Drawing.Point(628, 120);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnXoa.Size = new System.Drawing.Size(552, 37);
+            this.btnXoa.Size = new System.Drawing.Size(553, 40);
             this.btnXoa.TabIndex = 240;
             this.btnXoa.Text = "         Xóa hàng trong giỏ nhập";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -974,11 +965,11 @@ namespace WindowsFormsApp
             this.btnThem.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnThem.IconSize = 30;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(594, 68);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThem.Location = new System.Drawing.Point(628, 68);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnThem.Size = new System.Drawing.Size(553, 37);
+            this.btnThem.Size = new System.Drawing.Size(553, 40);
             this.btnThem.TabIndex = 239;
             this.btnThem.Text = "        Thêm hàng vào giỏ nhập";
             this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -988,23 +979,22 @@ namespace WindowsFormsApp
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Controls.Add(this.label12);
             this.panel10.ForeColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(588, 3);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2);
+            this.panel10.Location = new System.Drawing.Point(626, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(559, 41);
+            this.panel10.Size = new System.Drawing.Size(579, 41);
             this.panel10.TabIndex = 238;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(-16, 9);
+            this.label12.Font = new System.Drawing.Font("Cambria", 12F);
+            this.label12.Location = new System.Drawing.Point(-18, 7);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(372, 44);
+            this.label12.Size = new System.Drawing.Size(383, 46);
             this.label12.TabIndex = 15;
             this.label12.Text = "                                                 Thực hiện chức năng\r\n\r\n";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1012,8 +1002,8 @@ namespace WindowsFormsApp
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Silver;
-            this.panel9.Location = new System.Drawing.Point(577, 2);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2);
+            this.panel9.Location = new System.Drawing.Point(606, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1, 425);
             this.panel9.TabIndex = 237;
@@ -1023,10 +1013,10 @@ namespace WindowsFormsApp
             this.lsvNhaphang.CheckBoxes = true;
             this.lsvNhaphang.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsvNhaphang.HideSelection = false;
-            this.lsvNhaphang.Location = new System.Drawing.Point(7, 54);
-            this.lsvNhaphang.Margin = new System.Windows.Forms.Padding(2);
+            this.lsvNhaphang.Location = new System.Drawing.Point(7, 68);
+            this.lsvNhaphang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lsvNhaphang.Name = "lsvNhaphang";
-            this.lsvNhaphang.Size = new System.Drawing.Size(562, 374);
+            this.lsvNhaphang.Size = new System.Drawing.Size(595, 265);
             this.lsvNhaphang.TabIndex = 223;
             this.lsvNhaphang.UseCompatibleStateImageBehavior = false;
             // 
@@ -1036,7 +1026,7 @@ namespace WindowsFormsApp
             this.panel8.Controls.Add(this.label11);
             this.panel8.ForeColor = System.Drawing.Color.White;
             this.panel8.Location = new System.Drawing.Point(8, 3);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(561, 41);
             this.panel8.TabIndex = 235;
@@ -1044,11 +1034,11 @@ namespace WindowsFormsApp
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(5, 9);
+            this.label11.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(-4, 8);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(325, 22);
+            this.label11.Size = new System.Drawing.Size(332, 23);
             this.label11.TabIndex = 15;
             this.label11.Text = "                                                  Giỏ hàng nhập\r\n";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1056,22 +1046,23 @@ namespace WindowsFormsApp
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.Silver;
-            this.panel11.Location = new System.Drawing.Point(2, 49);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2);
+            this.panel11.Location = new System.Drawing.Point(2, 56);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1158, 1);
+            this.panel11.Size = new System.Drawing.Size(1221, 1);
             this.panel11.TabIndex = 16;
             // 
             // UC_NhapHang
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UC_NhapHang";
-            this.Size = new System.Drawing.Size(1176, 958);
+            this.Size = new System.Drawing.Size(1254, 834);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

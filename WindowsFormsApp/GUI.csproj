@@ -408,9 +408,6 @@
     <Compile Include="UC_XacNhanMa.Designer.cs">
       <DependentUpon>UC_XacNhanMa.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormInHoaDon.resx">
-      <DependentUpon>FormInHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>

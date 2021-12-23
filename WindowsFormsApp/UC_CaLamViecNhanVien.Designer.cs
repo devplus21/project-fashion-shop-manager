@@ -123,10 +123,10 @@ namespace WindowsFormsApp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cambria", 12F);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 22);
+            this.label1.Size = new System.Drawing.Size(149, 23);
             this.label1.TabIndex = 15;
             this.label1.Text = "Thông tin chung";
             // 
@@ -134,7 +134,6 @@ namespace WindowsFormsApp
             // 
             this.cmbLuaChon.BackColor = System.Drawing.Color.Transparent;
             this.cmbLuaChon.BorderColor = System.Drawing.Color.Black;
-            this.cmbLuaChon.BorderRadius = 3;
             this.cmbLuaChon.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbLuaChon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLuaChon.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -236,7 +235,6 @@ namespace WindowsFormsApp
             // 
             this.cmbCLV.BackColor = System.Drawing.Color.Transparent;
             this.cmbCLV.BorderColor = System.Drawing.Color.Black;
-            this.cmbCLV.BorderRadius = 3;
             this.cmbCLV.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbCLV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCLV.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -260,7 +258,6 @@ namespace WindowsFormsApp
             // 
             this.cmbTenNV.BackColor = System.Drawing.Color.Transparent;
             this.cmbTenNV.BorderColor = System.Drawing.Color.Black;
-            this.cmbTenNV.BorderRadius = 3;
             this.cmbTenNV.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbTenNV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTenNV.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));

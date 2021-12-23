@@ -109,7 +109,7 @@ namespace WindowsFormsApp
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1411, 54);
+            this.panel2.Size = new System.Drawing.Size(1254, 54);
             this.panel2.TabIndex = 218;
             // 
             // lblTk
@@ -142,9 +142,9 @@ namespace WindowsFormsApp
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Location = new System.Drawing.Point(21, 92);
+            this.panel1.Location = new System.Drawing.Point(20, 72);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1368, 403);
+            this.panel1.Size = new System.Drawing.Size(1196, 403);
             this.panel1.TabIndex = 219;
             // 
             // label10
@@ -152,7 +152,7 @@ namespace WindowsFormsApp
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(175, 189);
+            this.label10.Location = new System.Drawing.Point(149, 169);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(22, 29);
             this.label10.TabIndex = 233;
@@ -163,18 +163,18 @@ namespace WindowsFormsApp
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
             this.panel4.Controls.Add(this.label1);
             this.panel4.ForeColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(10, 5);
+            this.panel4.Location = new System.Drawing.Point(13, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1355, 49);
+            this.panel4.Size = new System.Drawing.Size(1183, 49);
             this.panel4.TabIndex = 232;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cambria", 12F);
             this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 22);
+            this.label1.Size = new System.Drawing.Size(149, 23);
             this.label1.TabIndex = 15;
             this.label1.Text = "Thông tin chung";
             // 
@@ -182,7 +182,7 @@ namespace WindowsFormsApp
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(859, 296);
+            this.label9.Location = new System.Drawing.Point(690, 261);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 29);
             this.label9.TabIndex = 220;
@@ -191,7 +191,6 @@ namespace WindowsFormsApp
             // txtKH
             // 
             this.txtKH.BorderColor = System.Drawing.Color.Silver;
-            this.txtKH.BorderRadius = 3;
             this.txtKH.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtKH.DefaultText = "Nhập tên khách hàng";
             this.txtKH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -205,7 +204,7 @@ namespace WindowsFormsApp
             this.txtKH.ForeColor = System.Drawing.Color.Gray;
             this.txtKH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtKH.HoverState.Parent = this.txtKH;
-            this.txtKH.Location = new System.Drawing.Point(29, 113);
+            this.txtKH.Location = new System.Drawing.Point(31, 113);
             this.txtKH.Margin = new System.Windows.Forms.Padding(7);
             this.txtKH.Name = "txtKH";
             this.txtKH.PasswordChar = '\0';
@@ -213,7 +212,7 @@ namespace WindowsFormsApp
             this.txtKH.SelectedText = "";
             this.txtKH.SelectionStart = 19;
             this.txtKH.ShadowDecoration.Parent = this.txtKH;
-            this.txtKH.Size = new System.Drawing.Size(1331, 49);
+            this.txtKH.Size = new System.Drawing.Size(1142, 49);
             this.txtKH.TabIndex = 221;
             this.txtKH.Enter += new System.EventHandler(this.txtKH_Enter);
             this.txtKH.Leave += new System.EventHandler(this.txtKH_Leave);
@@ -221,7 +220,6 @@ namespace WindowsFormsApp
             // txtTimkiem
             // 
             this.txtTimkiem.BorderColor = System.Drawing.Color.Silver;
-            this.txtTimkiem.BorderRadius = 3;
             this.txtTimkiem.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTimkiem.DefaultText = "Tìm kiếm theo mã, tên, sđt khách hàng";
             this.txtTimkiem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -234,7 +232,7 @@ namespace WindowsFormsApp
             this.txtTimkiem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTimkiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimkiem.HoverState.Parent = this.txtTimkiem;
-            this.txtTimkiem.Location = new System.Drawing.Point(865, 338);
+            this.txtTimkiem.Location = new System.Drawing.Point(660, 297);
             this.txtTimkiem.Margin = new System.Windows.Forms.Padding(7);
             this.txtTimkiem.Name = "txtTimkiem";
             this.txtTimkiem.PasswordChar = '\0';
@@ -242,7 +240,7 @@ namespace WindowsFormsApp
             this.txtTimkiem.SelectedText = "";
             this.txtTimkiem.SelectionStart = 37;
             this.txtTimkiem.ShadowDecoration.Parent = this.txtTimkiem;
-            this.txtTimkiem.Size = new System.Drawing.Size(495, 49);
+            this.txtTimkiem.Size = new System.Drawing.Size(513, 49);
             this.txtTimkiem.TabIndex = 222;
             this.txtTimkiem.TextChanged += new System.EventHandler(this.txtTimkiem_TextChanged);
             this.txtTimkiem.Enter += new System.EventHandler(this.txtTimkiem_Enter);
@@ -251,7 +249,6 @@ namespace WindowsFormsApp
             // txtDiachi
             // 
             this.txtDiachi.BorderColor = System.Drawing.Color.Silver;
-            this.txtDiachi.BorderRadius = 3;
             this.txtDiachi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiachi.DefaultText = "Nhập địa chỉ";
             this.txtDiachi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -265,7 +262,7 @@ namespace WindowsFormsApp
             this.txtDiachi.ForeColor = System.Drawing.Color.Gray;
             this.txtDiachi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDiachi.HoverState.Parent = this.txtDiachi;
-            this.txtDiachi.Location = new System.Drawing.Point(29, 338);
+            this.txtDiachi.Location = new System.Drawing.Point(28, 297);
             this.txtDiachi.Margin = new System.Windows.Forms.Padding(7);
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.PasswordChar = '\0';
@@ -273,7 +270,7 @@ namespace WindowsFormsApp
             this.txtDiachi.SelectedText = "";
             this.txtDiachi.SelectionStart = 12;
             this.txtDiachi.ShadowDecoration.Parent = this.txtDiachi;
-            this.txtDiachi.Size = new System.Drawing.Size(779, 49);
+            this.txtDiachi.Size = new System.Drawing.Size(607, 49);
             this.txtDiachi.TabIndex = 221;
             this.txtDiachi.Enter += new System.EventHandler(this.txtDiachi_Enter);
             this.txtDiachi.Leave += new System.EventHandler(this.txtDiachi_Leave);
@@ -281,7 +278,6 @@ namespace WindowsFormsApp
             // txtEmail
             // 
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
-            this.txtEmail.BorderRadius = 3;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.DefaultText = "Nhập địa chỉ email";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -295,7 +291,7 @@ namespace WindowsFormsApp
             this.txtEmail.ForeColor = System.Drawing.Color.Gray;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.Parent = this.txtEmail;
-            this.txtEmail.Location = new System.Drawing.Point(865, 231);
+            this.txtEmail.Location = new System.Drawing.Point(660, 205);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(7);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -303,7 +299,7 @@ namespace WindowsFormsApp
             this.txtEmail.SelectedText = "";
             this.txtEmail.SelectionStart = 18;
             this.txtEmail.ShadowDecoration.Parent = this.txtEmail;
-            this.txtEmail.Size = new System.Drawing.Size(495, 49);
+            this.txtEmail.Size = new System.Drawing.Size(513, 49);
             this.txtEmail.TabIndex = 221;
             this.txtEmail.Enter += new System.EventHandler(this.txtEmail_Enter);
             this.txtEmail.Leave += new System.EventHandler(this.txtEmail_Leave);
@@ -311,7 +307,6 @@ namespace WindowsFormsApp
             // txtSĐT
             // 
             this.txtSĐT.BorderColor = System.Drawing.Color.Silver;
-            this.txtSĐT.BorderRadius = 3;
             this.txtSĐT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSĐT.DefaultText = "Nhập số điện thoại";
             this.txtSĐT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -325,7 +320,7 @@ namespace WindowsFormsApp
             this.txtSĐT.ForeColor = System.Drawing.Color.Gray;
             this.txtSĐT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSĐT.HoverState.Parent = this.txtSĐT;
-            this.txtSĐT.Location = new System.Drawing.Point(440, 231);
+            this.txtSĐT.Location = new System.Drawing.Point(356, 205);
             this.txtSĐT.Margin = new System.Windows.Forms.Padding(7);
             this.txtSĐT.Name = "txtSĐT";
             this.txtSĐT.PasswordChar = '\0';
@@ -333,7 +328,7 @@ namespace WindowsFormsApp
             this.txtSĐT.SelectedText = "";
             this.txtSĐT.SelectionStart = 18;
             this.txtSĐT.ShadowDecoration.Parent = this.txtSĐT;
-            this.txtSĐT.Size = new System.Drawing.Size(368, 49);
+            this.txtSĐT.Size = new System.Drawing.Size(274, 49);
             this.txtSĐT.TabIndex = 221;
             this.txtSĐT.Enter += new System.EventHandler(this.txtSĐT_Enter);
             this.txtSĐT.Leave += new System.EventHandler(this.txtSĐT_Leave);
@@ -341,7 +336,6 @@ namespace WindowsFormsApp
             // txtMaKH
             // 
             this.txtMaKH.BorderColor = System.Drawing.Color.Silver;
-            this.txtMaKH.BorderRadius = 3;
             this.txtMaKH.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaKH.DefaultText = "Nhập mã khách hàng";
             this.txtMaKH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -355,7 +349,7 @@ namespace WindowsFormsApp
             this.txtMaKH.ForeColor = System.Drawing.Color.Gray;
             this.txtMaKH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMaKH.HoverState.Parent = this.txtMaKH;
-            this.txtMaKH.Location = new System.Drawing.Point(29, 231);
+            this.txtMaKH.Location = new System.Drawing.Point(28, 205);
             this.txtMaKH.Margin = new System.Windows.Forms.Padding(7);
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.PasswordChar = '\0';
@@ -364,14 +358,14 @@ namespace WindowsFormsApp
             this.txtMaKH.SelectedText = "";
             this.txtMaKH.SelectionStart = 18;
             this.txtMaKH.ShadowDecoration.Parent = this.txtMaKH;
-            this.txtMaKH.Size = new System.Drawing.Size(368, 49);
+            this.txtMaKH.Size = new System.Drawing.Size(297, 49);
             this.txtMaKH.TabIndex = 220;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(23, 296);
+            this.label8.Location = new System.Drawing.Point(25, 261);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(67, 29);
             this.label8.TabIndex = 220;
@@ -382,7 +376,7 @@ namespace WindowsFormsApp
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(564, 189);
+            this.label7.Location = new System.Drawing.Point(479, 169);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(22, 29);
             this.label7.TabIndex = 26;
@@ -392,7 +386,7 @@ namespace WindowsFormsApp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(859, 189);
+            this.label6.Location = new System.Drawing.Point(654, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 29);
             this.label6.TabIndex = 25;
@@ -402,7 +396,7 @@ namespace WindowsFormsApp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(434, 189);
+            this.label5.Location = new System.Drawing.Point(368, 169);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 29);
             this.label5.TabIndex = 24;
@@ -412,7 +406,7 @@ namespace WindowsFormsApp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(23, 189);
+            this.label4.Location = new System.Drawing.Point(23, 169);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 29);
             this.label4.TabIndex = 23;
@@ -423,7 +417,7 @@ namespace WindowsFormsApp
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(175, 71);
+            this.label3.Location = new System.Drawing.Point(161, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(22, 29);
             this.label3.TabIndex = 19;
@@ -475,7 +469,7 @@ namespace WindowsFormsApp
             this.dgvKH.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvKH.EnableHeadersVisualStyles = false;
             this.dgvKH.GridColor = System.Drawing.Color.Gray;
-            this.dgvKH.Location = new System.Drawing.Point(21, 515);
+            this.dgvKH.Location = new System.Drawing.Point(20, 481);
             this.dgvKH.Name = "dgvKH";
             this.dgvKH.ReadOnly = true;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -490,7 +484,7 @@ namespace WindowsFormsApp
             this.dgvKH.RowHeadersWidth = 62;
             this.dgvKH.RowTemplate.Height = 45;
             this.dgvKH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvKH.Size = new System.Drawing.Size(1368, 563);
+            this.dgvKH.Size = new System.Drawing.Size(1196, 276);
             this.dgvKH.TabIndex = 220;
             this.dgvKH.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvKH.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -527,7 +521,7 @@ namespace WindowsFormsApp
             this.btnXoa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnXoa.IconSize = 30;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(1010, 1093);
+            this.btnXoa.Location = new System.Drawing.Point(867, 777);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnXoa.Size = new System.Drawing.Size(167, 45);
@@ -550,7 +544,7 @@ namespace WindowsFormsApp
             this.btnThem.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnThem.IconSize = 30;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(798, 1093);
+            this.btnThem.Location = new System.Drawing.Point(680, 777);
             this.btnThem.Name = "btnThem";
             this.btnThem.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnThem.Size = new System.Drawing.Size(167, 45);
@@ -572,7 +566,7 @@ namespace WindowsFormsApp
             this.btnSua.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSua.IconSize = 30;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(1219, 1093);
+            this.btnSua.Location = new System.Drawing.Point(1049, 777);
             this.btnSua.Name = "btnSua";
             this.btnSua.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnSua.Size = new System.Drawing.Size(167, 45);
@@ -584,8 +578,7 @@ namespace WindowsFormsApp
             // 
             // UC_KhachHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
@@ -597,7 +590,7 @@ namespace WindowsFormsApp
             this.Controls.Add(this.guna2ToggleSwitch1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_KhachHang";
-            this.Size = new System.Drawing.Size(1411, 1150);
+            this.Size = new System.Drawing.Size(1254, 834);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

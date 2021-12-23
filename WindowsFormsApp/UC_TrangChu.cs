@@ -45,7 +45,6 @@ namespace WindowsFormsApp
             int doanhthu = Int32.Parse(kh.Rows[0]["Doanh thu"].ToString());
 
             lblDoanhthu.Text = string.Format(new CultureInfo("vi-VN"), "{0:#,##0}", doanhthu) + " đ";
-
         }
 
         private void getDataChart()
@@ -66,12 +65,6 @@ namespace WindowsFormsApp
             //chart1.Series[0].ChartType = SeriesChartType.Column;
         }
 
-        private void lblTenNhanVien_Click(object sender, EventArgs e)
-        {
-            showsubMenu(pnlTTTaiKhoan);
-        }
-
-
         private void addUC(UserControl uc)
         {
             uc.Dock = DockStyle.Fill;
@@ -79,13 +72,6 @@ namespace WindowsFormsApp
             panel1.Controls.Add(uc);
             uc.BringToFront();
         }
-
-        private void btnTK_Click(object sender, EventArgs e)
-        {
-            UC_ThongTinhTaiKhoan f = new UC_ThongTinhTaiKhoan(lblTenNhanVien.Text);
-            addUC(f);
-        }
-
 
         private void HidesubMenu()
         {
@@ -107,9 +93,22 @@ namespace WindowsFormsApp
                 subMenu.Visible = false;
         }
 
-        private void btnX_Click(object sender, EventArgs e)
+        private void lblTenNhanVien_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            showsubMenu(pnlTTTaiKhoan);
+        }
+
+        private void btnTK_Click(object sender, EventArgs e)
+        {
+            UC_ThongTinhTaiKhoan f = new UC_ThongTinhTaiKhoan(lblTenNhanVien.Text);
+            addUC(f);
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            FormLogin f = new FormLogin();
+            f.Show();
+            this.Hide();
         }
     }
 }

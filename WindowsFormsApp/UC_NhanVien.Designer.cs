@@ -29,10 +29,10 @@ namespace WindowsFormsApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlNhanVien = new System.Windows.Forms.Panel();
             this.btnGiaoca = new FontAwesome.Sharp.IconButton();
             this.btnSua = new FontAwesome.Sharp.IconButton();
@@ -154,43 +154,43 @@ namespace WindowsFormsApp
             // 
             // dgvNV
             // 
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            this.dgvNV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.dgvNV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvNV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNV.BackgroundColor = System.Drawing.Color.White;
             this.dgvNV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvNV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvNV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvNV.ColumnHeadersHeight = 45;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNV.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNV.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvNV.EnableHeadersVisualStyles = false;
             this.dgvNV.GridColor = System.Drawing.Color.Gray;
             this.dgvNV.Location = new System.Drawing.Point(21, 612);
             this.dgvNV.Name = "dgvNV";
             this.dgvNV.ReadOnly = true;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNV.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNV.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvNV.RowHeadersVisible = false;
             this.dgvNV.RowHeadersWidth = 62;
             this.dgvNV.RowTemplate.Height = 45;
@@ -274,17 +274,16 @@ namespace WindowsFormsApp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cambria", 12F);
             this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 22);
+            this.label1.Size = new System.Drawing.Size(149, 23);
             this.label1.TabIndex = 15;
             this.label1.Text = "Thông tin chung";
             // 
             // txtKH
             // 
             this.txtKH.BorderColor = System.Drawing.Color.Silver;
-            this.txtKH.BorderRadius = 3;
             this.txtKH.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtKH.DefaultText = "Nhập tên nv";
             this.txtKH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -314,7 +313,6 @@ namespace WindowsFormsApp
             // txtTimkiem
             // 
             this.txtTimkiem.BorderColor = System.Drawing.Color.Silver;
-            this.txtTimkiem.BorderRadius = 3;
             this.txtTimkiem.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTimkiem.DefaultText = "Tìm kiếm theo mã, tên nhân viên";
             this.txtTimkiem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -346,7 +344,6 @@ namespace WindowsFormsApp
             // 
             this.cmbChucVu.BackColor = System.Drawing.Color.Transparent;
             this.cmbChucVu.BorderColor = System.Drawing.Color.Black;
-            this.cmbChucVu.BorderRadius = 3;
             this.cmbChucVu.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbChucVu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbChucVu.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -367,7 +364,6 @@ namespace WindowsFormsApp
             // 
             this.cmbGioiTinh.BackColor = System.Drawing.Color.Transparent;
             this.cmbGioiTinh.BorderColor = System.Drawing.Color.Black;
-            this.cmbGioiTinh.BorderRadius = 3;
             this.cmbGioiTinh.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbGioiTinh.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -428,7 +424,6 @@ namespace WindowsFormsApp
             // txtDiachi
             // 
             this.txtDiachi.BorderColor = System.Drawing.Color.Silver;
-            this.txtDiachi.BorderRadius = 3;
             this.txtDiachi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiachi.DefaultText = "Nhập địa chỉ";
             this.txtDiachi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -458,7 +453,6 @@ namespace WindowsFormsApp
             // txtEmail
             // 
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
-            this.txtEmail.BorderRadius = 3;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.DefaultText = "Nhập địa chỉ email";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -488,7 +482,6 @@ namespace WindowsFormsApp
             // txtSĐT
             // 
             this.txtSĐT.BorderColor = System.Drawing.Color.Silver;
-            this.txtSĐT.BorderRadius = 3;
             this.txtSĐT.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSĐT.DefaultText = "Nhập số điện thoại";
             this.txtSĐT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -518,7 +511,6 @@ namespace WindowsFormsApp
             // txtMaNV
             // 
             this.txtMaNV.BorderColor = System.Drawing.Color.Silver;
-            this.txtMaNV.BorderRadius = 3;
             this.txtMaNV.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMaNV.DefaultText = "Nhập mã nhân viên\r\n";
             this.txtMaNV.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));

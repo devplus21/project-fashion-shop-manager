@@ -70,9 +70,8 @@ namespace WindowsFormsApp
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(557, 762);
+            this.panel1.Size = new System.Drawing.Size(627, 952);
             this.panel1.TabIndex = 0;
             // 
             // iconPictureBox1
@@ -82,11 +81,10 @@ namespace WindowsFormsApp
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.CheckCircle;
             this.iconPictureBox1.IconColor = System.Drawing.Color.Green;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 26;
-            this.iconPictureBox1.Location = new System.Drawing.Point(66, 164);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iconPictureBox1.IconSize = 30;
+            this.iconPictureBox1.Location = new System.Drawing.Point(74, 205);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(28, 26);
+            this.iconPictureBox1.Size = new System.Drawing.Size(32, 32);
             this.iconPictureBox1.TabIndex = 284;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -108,16 +106,15 @@ namespace WindowsFormsApp
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(20, 156);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.guna2TextBox2.Location = new System.Drawing.Point(23, 195);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.SelectionStart = 48;
             this.guna2TextBox2.ShadowDecoration.BorderRadius = 10;
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(518, 37);
+            this.guna2TextBox2.Size = new System.Drawing.Size(583, 46);
             this.guna2TextBox2.TabIndex = 283;
             this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.guna2TextBox2.TextOffset = new System.Drawing.Point(15, 0);
@@ -139,15 +136,15 @@ namespace WindowsFormsApp
             this.txtXacNhan.ForeColor = System.Drawing.Color.Black;
             this.txtXacNhan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtXacNhan.HoverState.Parent = this.txtXacNhan;
-            this.txtXacNhan.Location = new System.Drawing.Point(20, 298);
-            this.txtXacNhan.Margin = new System.Windows.Forms.Padding(4);
+            this.txtXacNhan.Location = new System.Drawing.Point(23, 373);
+            this.txtXacNhan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtXacNhan.Name = "txtXacNhan";
             this.txtXacNhan.PasswordChar = '\0';
             this.txtXacNhan.PlaceholderText = "";
             this.txtXacNhan.SelectedText = "";
             this.txtXacNhan.ShadowDecoration.BorderRadius = 10;
             this.txtXacNhan.ShadowDecoration.Parent = this.txtXacNhan;
-            this.txtXacNhan.Size = new System.Drawing.Size(516, 42);
+            this.txtXacNhan.Size = new System.Drawing.Size(580, 52);
             this.txtXacNhan.TabIndex = 282;
             this.txtXacNhan.TextOffset = new System.Drawing.Point(15, 0);
             // 
@@ -169,8 +166,8 @@ namespace WindowsFormsApp
             this.txtSDT.ForeColor = System.Drawing.Color.Black;
             this.txtSDT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSDT.HoverState.Parent = this.txtSDT;
-            this.txtSDT.Location = new System.Drawing.Point(20, 231);
-            this.txtSDT.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSDT.Location = new System.Drawing.Point(23, 289);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.PasswordChar = '\0';
             this.txtSDT.PlaceholderText = "";
@@ -178,7 +175,7 @@ namespace WindowsFormsApp
             this.txtSDT.SelectedText = "";
             this.txtSDT.ShadowDecoration.BorderRadius = 10;
             this.txtSDT.ShadowDecoration.Parent = this.txtSDT;
-            this.txtSDT.Size = new System.Drawing.Size(516, 42);
+            this.txtSDT.Size = new System.Drawing.Size(580, 52);
             this.txtSDT.TabIndex = 281;
             this.txtSDT.TextOffset = new System.Drawing.Point(15, 0);
             // 
@@ -194,11 +191,10 @@ namespace WindowsFormsApp
             this.btnQuaylai.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnQuaylai.IconSize = 35;
             this.btnQuaylai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuaylai.Location = new System.Drawing.Point(0, 11);
-            this.btnQuaylai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQuaylai.Location = new System.Drawing.Point(-8, 14);
             this.btnQuaylai.Name = "btnQuaylai";
-            this.btnQuaylai.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.btnQuaylai.Size = new System.Drawing.Size(55, 38);
+            this.btnQuaylai.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnQuaylai.Size = new System.Drawing.Size(62, 48);
             this.btnQuaylai.TabIndex = 280;
             this.btnQuaylai.Text = "        ";
             this.btnQuaylai.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -208,10 +204,9 @@ namespace WindowsFormsApp
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WindowsFormsApp.Properties.Resources.Capture1;
-            this.pictureBox2.Location = new System.Drawing.Point(-92, 494);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(-104, 617);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(747, 267);
+            this.pictureBox2.Size = new System.Drawing.Size(840, 334);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 279;
             this.pictureBox2.TabStop = false;
@@ -221,9 +216,9 @@ namespace WindowsFormsApp
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(23, 474);
+            this.label8.Location = new System.Drawing.Point(26, 593);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(440, 19);
+            this.label8.Size = new System.Drawing.Size(507, 22);
             this.label8.TabIndex = 278;
             this.label8.Text = "Hỗ trợ khách hàng từ 8h00 đến 21h00 tất cả các ngày trong tuần\r\n";
             // 
@@ -232,9 +227,9 @@ namespace WindowsFormsApp
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(300, 436);
+            this.label7.Location = new System.Drawing.Point(338, 545);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 19);
+            this.label7.Size = new System.Drawing.Size(95, 23);
             this.label7.TabIndex = 277;
             this.label7.Text = "1900 8086";
             // 
@@ -243,9 +238,9 @@ namespace WindowsFormsApp
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(82, 437);
+            this.label6.Location = new System.Drawing.Point(92, 546);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(196, 19);
+            this.label6.Size = new System.Drawing.Size(229, 22);
             this.label6.TabIndex = 276;
             this.label6.Text = "Tổng đài hỗ trợ khách hàng:\r\n";
             // 
@@ -262,11 +257,10 @@ namespace WindowsFormsApp
             this.btnXacNhanOTP.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnXacNhanOTP.IconSize = 25;
             this.btnXacNhanOTP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXacNhanOTP.Location = new System.Drawing.Point(151, 363);
-            this.btnXacNhanOTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXacNhanOTP.Location = new System.Drawing.Point(170, 454);
             this.btnXacNhanOTP.Name = "btnXacNhanOTP";
-            this.btnXacNhanOTP.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.btnXacNhanOTP.Size = new System.Drawing.Size(204, 48);
+            this.btnXacNhanOTP.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnXacNhanOTP.Size = new System.Drawing.Size(229, 60);
             this.btnXacNhanOTP.TabIndex = 275;
             this.btnXacNhanOTP.Text = "    Xác nhận OTP";
             this.btnXacNhanOTP.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -278,9 +272,9 @@ namespace WindowsFormsApp
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Banner", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(131, 102);
+            this.label4.Location = new System.Drawing.Point(147, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(215, 35);
+            this.label4.Size = new System.Drawing.Size(250, 40);
             this.label4.TabIndex = 271;
             this.label4.Text = "Bạn quên mật khẩu?";
             // 
@@ -290,9 +284,9 @@ namespace WindowsFormsApp
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            this.label3.Location = new System.Drawing.Point(236, 60);
+            this.label3.Location = new System.Drawing.Point(265, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 29);
+            this.label3.Size = new System.Drawing.Size(168, 35);
             this.label3.TabIndex = 270;
             this.label3.Text = "Fashion System";
             // 
@@ -302,11 +296,11 @@ namespace WindowsFormsApp
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Sitka Banner", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
-            this.label2.Location = new System.Drawing.Point(189, -5);
+            this.label2.Location = new System.Drawing.Point(213, -6);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 68);
+            this.label2.Size = new System.Drawing.Size(141, 81);
             this.label2.TabIndex = 269;
-            this.label2.Text = "w e n";
+            this.label2.Text = "a p e";
             // 
             // label1
             // 
@@ -314,11 +308,11 @@ namespace WindowsFormsApp
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(197)))), ((int)(((byte)(150)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(142, 11);
+            this.label1.Location = new System.Drawing.Point(160, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 46);
+            this.label1.Size = new System.Drawing.Size(57, 55);
             this.label1.TabIndex = 268;
-            this.label1.Text = "O";
+            this.label1.Text = "S";
             // 
             // bunifuElipse1
             // 
@@ -327,11 +321,11 @@ namespace WindowsFormsApp
             // 
             // UC_XacNhanMa
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UC_XacNhanMa";
-            this.Size = new System.Drawing.Size(557, 762);
+            this.Size = new System.Drawing.Size(627, 952);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();

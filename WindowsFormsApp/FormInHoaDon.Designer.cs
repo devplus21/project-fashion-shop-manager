@@ -61,7 +61,8 @@ namespace WindowsFormsApp
             // 
             // FormInHoaDon
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 862);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.reportViewer1);
