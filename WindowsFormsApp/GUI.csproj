@@ -533,6 +533,7 @@
     <None Include="Resources\Capture.PNG" />
     <None Include="Resources\8b814fa66a3676d9f1090a4e8df515ba.jpg" />
     <None Include="Resources\Capture1.PNG" />
+    <None Include="Resources\PhanQuyen.jpg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

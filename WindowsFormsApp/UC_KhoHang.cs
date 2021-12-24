@@ -206,6 +206,11 @@ namespace WindowsFormsApp
             cmbĐVT.SelectedIndex = 0;
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void HienThi()
         {
             DataTable dt = MatHangBUS.Intance.HienThi();

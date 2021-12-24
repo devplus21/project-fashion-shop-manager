@@ -93,6 +93,7 @@ namespace WindowsFormsApp
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.label16 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlTTTaiKhoan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -106,6 +107,7 @@ namespace WindowsFormsApp
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.pnlTTTaiKhoan);
             this.panel1.Controls.Add(this.lblGiatri);
             this.panel1.Controls.Add(this.lblslton);
@@ -389,11 +391,11 @@ namespace WindowsFormsApp
             "Tháng này",
             "Năm nay"});
             this.cmbTonKho.ItemsAppearance.Parent = this.cmbTonKho;
-            this.cmbTonKho.Location = new System.Drawing.Point(23, 624);
+            this.cmbTonKho.Location = new System.Drawing.Point(201, 623);
             this.cmbTonKho.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbTonKho.Name = "cmbTonKho";
             this.cmbTonKho.ShadowDecoration.Parent = this.cmbTonKho;
-            this.cmbTonKho.Size = new System.Drawing.Size(199, 36);
+            this.cmbTonKho.Size = new System.Drawing.Size(277, 36);
             this.cmbTonKho.TabIndex = 385;
             // 
             // label8
@@ -411,7 +413,7 @@ namespace WindowsFormsApp
             this.lblsltop3.AutoSize = true;
             this.lblsltop3.BackColor = System.Drawing.Color.White;
             this.lblsltop3.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsltop3.Location = new System.Drawing.Point(232, 759);
+            this.lblsltop3.Location = new System.Drawing.Point(300, 770);
             this.lblsltop3.Name = "lblsltop3";
             this.lblsltop3.Size = new System.Drawing.Size(21, 22);
             this.lblsltop3.TabIndex = 375;
@@ -422,7 +424,7 @@ namespace WindowsFormsApp
             this.lblsltop2.AutoSize = true;
             this.lblsltop2.BackColor = System.Drawing.Color.White;
             this.lblsltop2.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsltop2.Location = new System.Drawing.Point(232, 717);
+            this.lblsltop2.Location = new System.Drawing.Point(300, 728);
             this.lblsltop2.Name = "lblsltop2";
             this.lblsltop2.Size = new System.Drawing.Size(21, 22);
             this.lblsltop2.TabIndex = 374;
@@ -433,7 +435,7 @@ namespace WindowsFormsApp
             this.lblsanpham.AutoSize = true;
             this.lblsanpham.BackColor = System.Drawing.Color.White;
             this.lblsanpham.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsanpham.Location = new System.Drawing.Point(232, 668);
+            this.lblsanpham.Location = new System.Drawing.Point(300, 679);
             this.lblsanpham.Name = "lblsanpham";
             this.lblsanpham.Size = new System.Drawing.Size(21, 22);
             this.lblsanpham.TabIndex = 373;
@@ -444,18 +446,19 @@ namespace WindowsFormsApp
             this.labeltop3.AutoSize = true;
             this.labeltop3.BackColor = System.Drawing.Color.White;
             this.labeltop3.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltop3.Location = new System.Drawing.Point(215, 754);
+            this.labeltop3.Location = new System.Drawing.Point(274, 765);
             this.labeltop3.Name = "labeltop3";
-            this.labeltop3.Size = new System.Drawing.Size(196, 29);
+            this.labeltop3.Size = new System.Drawing.Size(216, 29);
             this.labeltop3.TabIndex = 370;
-            this.labeltop3.Text = "(        sản phẩm bán ra)";
+            this.labeltop3.Text = "(            sản phẩm bán ra)";
+            this.labeltop3.Click += new System.EventHandler(this.labeltop3_Click);
             // 
             // lbltop3
             // 
             this.lbltop3.AutoSize = true;
             this.lbltop3.BackColor = System.Drawing.Color.White;
             this.lbltop3.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltop3.Location = new System.Drawing.Point(101, 753);
+            this.lbltop3.Location = new System.Drawing.Point(126, 765);
             this.lbltop3.Name = "lbltop3";
             this.lbltop3.Size = new System.Drawing.Size(96, 29);
             this.lbltop3.TabIndex = 369;
@@ -466,18 +469,19 @@ namespace WindowsFormsApp
             this.labeltop2.AutoSize = true;
             this.labeltop2.BackColor = System.Drawing.Color.White;
             this.labeltop2.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltop2.Location = new System.Drawing.Point(215, 710);
+            this.labeltop2.Location = new System.Drawing.Point(274, 721);
             this.labeltop2.Name = "labeltop2";
-            this.labeltop2.Size = new System.Drawing.Size(196, 29);
+            this.labeltop2.Size = new System.Drawing.Size(216, 29);
             this.labeltop2.TabIndex = 368;
-            this.labeltop2.Text = "(        sản phẩm bán ra)";
+            this.labeltop2.Text = "(            sản phẩm bán ra)";
+            this.labeltop2.Click += new System.EventHandler(this.labeltop2_Click);
             // 
             // lbltop2
             // 
             this.lbltop2.AutoSize = true;
             this.lbltop2.BackColor = System.Drawing.Color.White;
             this.lbltop2.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltop2.Location = new System.Drawing.Point(96, 709);
+            this.lbltop2.Location = new System.Drawing.Point(121, 721);
             this.lbltop2.Name = "lbltop2";
             this.lbltop2.Size = new System.Drawing.Size(101, 29);
             this.lbltop2.TabIndex = 367;
@@ -488,18 +492,19 @@ namespace WindowsFormsApp
             this.labeltop1.AutoSize = true;
             this.labeltop1.BackColor = System.Drawing.Color.White;
             this.labeltop1.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltop1.Location = new System.Drawing.Point(215, 662);
+            this.labeltop1.Location = new System.Drawing.Point(274, 673);
             this.labeltop1.Name = "labeltop1";
-            this.labeltop1.Size = new System.Drawing.Size(196, 29);
+            this.labeltop1.Size = new System.Drawing.Size(216, 29);
             this.labeltop1.TabIndex = 366;
-            this.labeltop1.Text = "(        sản phẩm bán ra)";
+            this.labeltop1.Text = "(            sản phẩm bán ra)";
+            this.labeltop1.Click += new System.EventHandler(this.labeltop1_Click);
             // 
             // lblSPTOP1
             // 
             this.lblSPTOP1.AutoSize = true;
             this.lblSPTOP1.BackColor = System.Drawing.Color.White;
             this.lblSPTOP1.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSPTOP1.Location = new System.Drawing.Point(96, 662);
+            this.lblSPTOP1.Location = new System.Drawing.Point(121, 674);
             this.lblSPTOP1.Name = "lblSPTOP1";
             this.lblSPTOP1.Size = new System.Drawing.Size(101, 29);
             this.lblSPTOP1.TabIndex = 365;
@@ -510,7 +515,7 @@ namespace WindowsFormsApp
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.White;
             this.label21.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(30, 754);
+            this.label21.Location = new System.Drawing.Point(55, 766);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(60, 22);
             this.label21.TabIndex = 363;
@@ -521,7 +526,7 @@ namespace WindowsFormsApp
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.White;
             this.label20.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(30, 709);
+            this.label20.Location = new System.Drawing.Point(55, 721);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(60, 22);
             this.label20.TabIndex = 362;
@@ -532,7 +537,7 @@ namespace WindowsFormsApp
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.White;
             this.label19.Font = new System.Drawing.Font("Cambria", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(30, 666);
+            this.label19.Location = new System.Drawing.Point(55, 678);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(60, 22);
             this.label19.TabIndex = 361;
@@ -566,6 +571,7 @@ namespace WindowsFormsApp
             this.guna2TextBox2.Size = new System.Drawing.Size(567, 205);
             this.guna2TextBox2.TabIndex = 328;
             this.guna2TextBox2.TextOffset = new System.Drawing.Point(15, 0);
+            this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
             // chart1
             // 
@@ -860,6 +866,17 @@ namespace WindowsFormsApp
             this.bunifuElipse6.ElipseRadius = 10;
             this.bunifuElipse6.TargetControl = this.pnlTTTaiKhoan;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(54, 630);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(123, 29);
+            this.label16.TabIndex = 401;
+            this.label16.Text = "Lựa chọn xem";
+            // 
             // UC_TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -951,5 +968,6 @@ namespace WindowsFormsApp
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private System.Windows.Forms.Label lblTenNhanVien;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse6;
+        private System.Windows.Forms.Label label16;
     }
 }

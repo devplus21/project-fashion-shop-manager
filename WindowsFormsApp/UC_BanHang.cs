@@ -536,6 +536,11 @@ namespace WindowsFormsApp
             cmbLoaihang.ValueMember = "MaLH";
         }
 
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void LamMoi()
         {
             FormInHoaDon formInHoaDon = new FormInHoaDon(lblMahd.Text, Tienkhachduafomart, lblTienhoantra.Text, lblTiengiam.Text, lblTongtien.Text);

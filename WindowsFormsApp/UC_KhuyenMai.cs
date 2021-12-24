@@ -49,6 +49,11 @@ namespace WindowsFormsApp
             cmbPhanTram.ValueMember = "PhanTram";
         }
 
+        private void cmbPhanTram_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
         /*
         private void LamMoi()

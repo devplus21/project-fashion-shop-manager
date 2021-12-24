@@ -30,11 +30,9 @@ namespace WindowsFormsApp
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtTenDangNhap = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.btnKhachHang = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtMatKhau = new Guna.UI2.WinForms.Guna2TextBox();
@@ -46,18 +44,13 @@ namespace WindowsFormsApp
             this.lblDangky = new System.Windows.Forms.Label();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.lblCanhBao = new System.Windows.Forms.Label();
+            this.btnKhachHang = new FontAwesome.Sharp.IconButton();
+            this.label13 = new System.Windows.Forms.Label();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Sitka Banner", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 7);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 35);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Đăng nhập";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel1
             // 
@@ -84,12 +77,13 @@ namespace WindowsFormsApp
             this.txtTenDangNhap.ForeColor = System.Drawing.Color.Silver;
             this.txtTenDangNhap.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenDangNhap.HoverState.Parent = this.txtTenDangNhap;
-            this.txtTenDangNhap.Location = new System.Drawing.Point(36, 209);
-            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenDangNhap.Location = new System.Drawing.Point(36, 236);
+            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
             this.txtTenDangNhap.PasswordChar = '\0';
             this.txtTenDangNhap.PlaceholderText = "";
             this.txtTenDangNhap.SelectedText = "";
+            this.txtTenDangNhap.SelectionStart = 3;
             this.txtTenDangNhap.ShadowDecoration.BorderRadius = 10;
             this.txtTenDangNhap.ShadowDecoration.Parent = this.txtTenDangNhap;
             this.txtTenDangNhap.Size = new System.Drawing.Size(486, 50);
@@ -104,32 +98,11 @@ namespace WindowsFormsApp
             this.guna2Elipse1.BorderRadius = 0;
             this.guna2Elipse1.TargetControl = this.btnKhachHang;
             // 
-            // btnKhachHang
-            // 
-            this.btnKhachHang.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKhachHang.Font = new System.Drawing.Font("Sitka Display", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKhachHang.ForeColor = System.Drawing.Color.Black;
-            this.btnKhachHang.IconChar = FontAwesome.Sharp.IconChar.Google;
-            this.btnKhachHang.IconColor = System.Drawing.Color.Silver;
-            this.btnKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnKhachHang.IconSize = 35;
-            this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhachHang.Location = new System.Drawing.Point(36, 70);
-            this.btnKhachHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnKhachHang.Name = "btnKhachHang";
-            this.btnKhachHang.Padding = new System.Windows.Forms.Padding(107, 0, 0, 0);
-            this.btnKhachHang.Size = new System.Drawing.Size(486, 50);
-            this.btnKhachHang.TabIndex = 12;
-            this.btnKhachHang.Text = "       Log in with Google\r\n";
-            this.btnKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhachHang.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Banner", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 173);
+            this.label1.Location = new System.Drawing.Point(30, 200);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 32);
             this.label1.TabIndex = 15;
@@ -162,11 +135,12 @@ namespace WindowsFormsApp
             this.txtMatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhau.HoverState.Parent = this.txtMatKhau;
             this.txtMatKhau.Location = new System.Drawing.Point(36, 326);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(5);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.PlaceholderText = "";
             this.txtMatKhau.SelectedText = "";
+            this.txtMatKhau.SelectionStart = 6;
             this.txtMatKhau.ShadowDecoration.BorderRadius = 10;
             this.txtMatKhau.ShadowDecoration.Parent = this.txtMatKhau;
             this.txtMatKhau.Size = new System.Drawing.Size(486, 48);
@@ -201,10 +175,10 @@ namespace WindowsFormsApp
             this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
             this.btnDangNhap.HoverState.Parent = this.btnDangNhap;
-            this.btnDangNhap.Location = new System.Drawing.Point(36, 468);
+            this.btnDangNhap.Location = new System.Drawing.Point(27, 457);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.ShadowDecoration.Parent = this.btnDangNhap;
-            this.btnDangNhap.Size = new System.Drawing.Size(486, 51);
+            this.btnDangNhap.Size = new System.Drawing.Size(486, 68);
             this.btnDangNhap.TabIndex = 19;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
@@ -267,12 +241,13 @@ namespace WindowsFormsApp
             this.guna2GradientButton1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.Gray;
             this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(503, 15);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(490, 12);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(34, 24);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(57, 36);
             this.guna2GradientButton1.TabIndex = 24;
             this.guna2GradientButton1.Text = "x";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // lblCanhBao
             // 
@@ -285,12 +260,110 @@ namespace WindowsFormsApp
             this.lblCanhBao.TabIndex = 25;
             this.lblCanhBao.Text = "Mật khẩu";
             // 
+            // btnKhachHang
+            // 
+            this.btnKhachHang.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhachHang.Font = new System.Drawing.Font("Sitka Display", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhachHang.ForeColor = System.Drawing.Color.Black;
+            this.btnKhachHang.IconChar = FontAwesome.Sharp.IconChar.Google;
+            this.btnKhachHang.IconColor = System.Drawing.Color.Silver;
+            this.btnKhachHang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnKhachHang.IconSize = 35;
+            this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachHang.Location = new System.Drawing.Point(36, 70);
+            this.btnKhachHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnKhachHang.Name = "btnKhachHang";
+            this.btnKhachHang.Padding = new System.Windows.Forms.Padding(107, 0, 0, 0);
+            this.btnKhachHang.Size = new System.Drawing.Size(486, 50);
+            this.btnKhachHang.TabIndex = 12;
+            this.btnKhachHang.Text = "       Log in with Google\r\n";
+            this.btnKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachHang.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            this.label13.Location = new System.Drawing.Point(465, 698);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(80, 37);
+            this.label13.TabIndex = 275;
+            this.label13.Text = "w e n";
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.FlatAppearance.BorderSize = 0;
+            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton3.ForeColor = System.Drawing.Color.White;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.AppleAlt;
+            this.iconButton3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(197)))), ((int)(((byte)(150)))));
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.IconSize = 35;
+            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton3.Location = new System.Drawing.Point(426, 702);
+            this.iconButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(47, 33);
+            this.iconButton3.TabIndex = 274;
+            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton3.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(82)))), ((int)(((byte)(132)))));
+            this.label2.Location = new System.Drawing.Point(232, -6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(150, 72);
+            this.label2.TabIndex = 277;
+            this.label2.Text = "w e n";
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Sitka Banner", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.AppleAlt;
+            this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(197)))), ((int)(((byte)(150)))));
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 60;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(173, 9);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(78, 57);
+            this.iconButton1.TabIndex = 276;
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Sitka Banner", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(167, 144);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(197, 32);
+            this.label4.TabIndex = 278;
+            this.label4.Text = "Đăng nhập hệ thống";
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(557, 762);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.iconButton1);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.iconButton3);
             this.Controls.Add(this.lblCanhBao);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.lblDangky);
@@ -305,7 +378,6 @@ namespace WindowsFormsApp
             this.Controls.Add(this.txtTenDangNhap);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnKhachHang);
-            this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormLogin";
@@ -317,8 +389,6 @@ namespace WindowsFormsApp
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconButton btnKhachHang;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2TextBox txtTenDangNhap;
@@ -334,5 +404,10 @@ namespace WindowsFormsApp
         private System.Windows.Forms.Label lblDangky;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private System.Windows.Forms.Label lblCanhBao;
+        private System.Windows.Forms.Label label13;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private System.Windows.Forms.Label label2;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -78,7 +78,7 @@ namespace WindowsFormsApp
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1254, 920);
+            this.panel1.Size = new System.Drawing.Size(1254, 834);
             this.panel1.TabIndex = 0;
             // 
             // btnSua
@@ -93,11 +93,11 @@ namespace WindowsFormsApp
             this.btnSua.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSua.IconSize = 30;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(1083, 868);
+            this.btnSua.Location = new System.Drawing.Point(1099, 780);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
             this.btnSua.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.btnSua.Size = new System.Drawing.Size(148, 36);
+            this.btnSua.Size = new System.Drawing.Size(140, 42);
             this.btnSua.TabIndex = 230;
             this.btnSua.Text = "         Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,11 +115,11 @@ namespace WindowsFormsApp
             this.btnXoa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnXoa.IconSize = 30;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(899, 868);
+            this.btnXoa.Location = new System.Drawing.Point(944, 780);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.btnXoa.Size = new System.Drawing.Size(148, 36);
+            this.btnXoa.Size = new System.Drawing.Size(140, 42);
             this.btnXoa.TabIndex = 229;
             this.btnXoa.Text = "         Xóa";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -138,11 +138,11 @@ namespace WindowsFormsApp
             this.btnThem.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnThem.IconSize = 30;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(704, 868);
+            this.btnThem.Location = new System.Drawing.Point(787, 780);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.btnThem.Size = new System.Drawing.Size(148, 36);
+            this.btnThem.Size = new System.Drawing.Size(140, 42);
             this.btnThem.TabIndex = 228;
             this.btnThem.Text = "        Thêm";
             this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -176,7 +176,7 @@ namespace WindowsFormsApp
             this.dgvKM.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvKM.EnableHeadersVisualStyles = false;
             this.dgvKM.GridColor = System.Drawing.Color.Gray;
-            this.dgvKM.Location = new System.Drawing.Point(16, 346);
+            this.dgvKM.Location = new System.Drawing.Point(18, 346);
             this.dgvKM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvKM.Name = "dgvKM";
             this.dgvKM.ReadOnly = true;
@@ -192,7 +192,7 @@ namespace WindowsFormsApp
             this.dgvKM.RowHeadersWidth = 62;
             this.dgvKM.RowTemplate.Height = 45;
             this.dgvKM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvKM.Size = new System.Drawing.Size(1216, 506);
+            this.dgvKM.Size = new System.Drawing.Size(1221, 430);
             this.dgvKM.TabIndex = 223;
             this.dgvKM.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvKM.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -235,10 +235,10 @@ namespace WindowsFormsApp
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.panel5);
-            this.panel3.Location = new System.Drawing.Point(19, 59);
+            this.panel3.Location = new System.Drawing.Point(16, 58);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1216, 274);
+            this.panel3.Size = new System.Drawing.Size(1223, 274);
             this.panel3.TabIndex = 221;
             // 
             // cmbLuaChon
@@ -360,14 +360,14 @@ namespace WindowsFormsApp
             this.panel4.Location = new System.Drawing.Point(9, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1204, 39);
+            this.panel4.Size = new System.Drawing.Size(1204, 49);
             this.panel4.TabIndex = 234;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 12F);
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(513, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 23);
             this.label1.TabIndex = 15;
@@ -395,6 +395,7 @@ namespace WindowsFormsApp
             this.cmbPhanTram.ShadowDecoration.Parent = this.cmbPhanTram;
             this.cmbPhanTram.Size = new System.Drawing.Size(328, 36);
             this.cmbPhanTram.TabIndex = 231;
+            this.cmbPhanTram.SelectedIndexChanged += new System.EventHandler(this.cmbPhanTram_SelectedIndexChanged);
             this.cmbPhanTram.Click += new System.EventHandler(this.cmbPhanTram_Click);
             // 
             // cmbTenMH
@@ -489,7 +490,7 @@ namespace WindowsFormsApp
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UC_KhuyenMai";
-            this.Size = new System.Drawing.Size(1254, 920);
+            this.Size = new System.Drawing.Size(1254, 834);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKM)).EndInit();
             this.panel3.ResumeLayout(false);
