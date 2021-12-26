@@ -770,7 +770,7 @@
                 <Style>
                   <FontFamily>Cambria</FontFamily>
                   <FontWeight>Normal</FontWeight>
-                  <Format>#,0'VND';(#,0'VND')</Format>
+                  <Format>#,0 'VND';(#,0 'VND')</Format>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -841,7 +841,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>0.1736in</Top>
-        <Left>2.57223in</Left>
+        <Left>2.36607in</Left>
         <Height>0.33333in</Height>
         <Width>1.53393in</Width>
         <ZIndex>9</ZIndex>
